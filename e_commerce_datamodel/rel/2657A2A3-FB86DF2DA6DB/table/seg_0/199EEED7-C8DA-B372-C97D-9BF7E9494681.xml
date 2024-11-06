@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="199EEED7-C8DA-B372-C97D-9BF7E9494681" name="Produk">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-06 07:37:53 UTC</createdTime>
+<generatorID>E0DF8827-2D7A-93FF-CF4D-3CC2309BF4C1</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produk" id="E983F8C3-6B75-51F5-D8CC-4C1B01B74227">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-06 07:37:53 UTC</createdTime>
+<generatorID>43429E40-8945-881B-A95F-D8458C714ABB</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_produk" id="398848CB-7394-20B6-4777-3BD7437C32BF">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-06 07:37:53 UTC</createdTime>
+<generatorID>F78B6136-7CB4-B0F0-FA0C-5EB0A9CF1988</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kategori" id="363C19FD-7A39-1303-1407-2AFF4752A89A">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-06 07:37:53 UTC</createdTime>
+<generatorID>5E848456-6AE9-A60B-E05E-3E8753ABE463</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="185370AC-A29A-7406-3BDC-8F1DD3EE2AEA" name="Produk_PK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-06 07:37:53 UTC</createdTime>
+<generatorID>41FAA7AB-8853-45F2-26BB-2305F2ADFB8B</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E983F8C3-6B75-51F5-D8CC-4C1B01B74227"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

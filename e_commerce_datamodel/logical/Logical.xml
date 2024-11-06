@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="583E8A2E-69D7-A2AB-7747-15F4D11B0E71" mainViewID="E53E79C0-CFBF-5B6A-7C74-414237A842AC">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-06 07:22:03 UTC</createdTime>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

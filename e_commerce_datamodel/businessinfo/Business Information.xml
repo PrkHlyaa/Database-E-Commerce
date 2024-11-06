@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="E21A835A-B00B-20F9-B837-BACA3FF7925A">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-06 07:22:03 UTC</createdTime>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

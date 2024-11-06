@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rincian_produk" directorySegmentName="seg_0" id="B7239AA7-85AE-3DD6-48E5-AE5634C9368C">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-06 07:36:10 UTC</createdTime>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<engineerTo>
+<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
+</engineerTo>
+<sourcePk>41FAA7AB-8853-45F2-26BB-2305F2ADFB8B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E0DF8827-2D7A-93FF-CF4D-3CC2309BF4C1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5E0169B4-BB3C-DB8D-C997-F7634231A99B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

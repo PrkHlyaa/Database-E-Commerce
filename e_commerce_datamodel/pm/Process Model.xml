@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="C39AADC3-DE55-25CE-685F-C05C4882D960">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-06 07:22:03 UTC</createdTime>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

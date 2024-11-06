@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="e_commerce_datamodel" id="28DF5F16-AB06-6763-8219-A3BFF8DA8459" version="3.5">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-06 07:22:03 UTC</createdTime>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>28DF5F16-AB06-6763-8219-A3BFF8DA8459</designId>
+</OSDM_Design>
