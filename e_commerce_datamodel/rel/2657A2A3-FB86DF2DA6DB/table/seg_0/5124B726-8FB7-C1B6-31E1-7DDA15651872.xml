@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5124B726-8FB7-C1B6-31E1-7DDA15651872" name="Kecamatan">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:51:43 UTC</createdTime>
+<generatorID>7A28C02F-C360-799D-D35D-3DCC9DC7D501</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_kecamatan" id="9496FC17-0D2D-DB01-F7CC-B7A8D592C00D">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:51:43 UTC</createdTime>
+<generatorID>8B840B56-92A7-46D6-4CC6-9983B1135BCE</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_kecamatan" id="DD93F795-1FD0-D75C-8753-C05B969BC382">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:51:43 UTC</createdTime>
+<generatorID>894471B9-7AE3-5AF9-F8BE-6FBA2182774E</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2EEA68B0-ABAB-DECA-A0DC-4B960CFD05DD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_kota" id="16CAB15F-4D49-1D67-237E-E6AD218CE5BC">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:51:43 UTC</createdTime>
+<generatorID>3F6AF37E-923D-5604-D76A-0996A339A29C</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20D439BE-3F44-862A-8323-8EA96C9F0305" referredColumn="71D03935-1153-6BC7-A98C-17BEB8F8DCFE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7193F6D9-CF7A-72CF-4F0B-2A33FE84215B" name="Kecamatan_PK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:51:43 UTC</createdTime>
+<generatorID>C0B76DCB-966C-C566-AC43-295A9EE2B500</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9496FC17-0D2D-DB01-F7CC-B7A8D592C00D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1879B79D-EACF-6F02-BE66-B7546F2811E1" name="Kecamatan_Kota_FK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:51:43 UTC</createdTime>
+<generatorID>643976CD-F054-C188-CCC5-43D9B5B1FDE7</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16CAB15F-4D49-1D67-237E-E6AD218CE5BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

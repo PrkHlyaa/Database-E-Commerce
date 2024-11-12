@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB9217CC-82D5-370F-5A9D-A15B9239FCCD" name="Checkout">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 10:14:09 UTC</createdTime>
+<generatorID>690AD152-ACD0-204A-EFC0-6ADFE72CD22B</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_checkout" id="E058EC54-0ABA-F958-FD47-E681E5245B42">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 10:14:09 UTC</createdTime>
+<generatorID>0320319B-4DC7-CFE7-BA4B-80345040B640</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="metode_pembayaran" id="0B0F7596-F232-1944-6AA3-C3490C006C28">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 10:14:09 UTC</createdTime>
+<generatorID>7936FD97-CAFA-82AD-842D-597A87D976D6</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="4BDE9A08-FBEE-A6EF-0CEE-70DDE1E37459">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 10:14:09 UTC</createdTime>
+<generatorID>011EFE53-27A6-AEA2-E727-CEA1C1CC8564</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>9</dataTypeScale>
+<ownDataTypeParameters>,2,9</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_checkout" id="6DA25093-9938-8B2E-56FC-12750B19A3A0">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 10:14:09 UTC</createdTime>
+<generatorID>ADD34B9A-18A4-773F-E830-358F2F889EBA</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F5C598C-20A4-C32A-6481-A7D76DEA8B69" name="Checkout_PK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 10:14:09 UTC</createdTime>
+<generatorID>4DA78464-F121-84B2-8653-5DC6BC6AE788</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E058EC54-0ABA-F958-FD47-E681E5245B42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

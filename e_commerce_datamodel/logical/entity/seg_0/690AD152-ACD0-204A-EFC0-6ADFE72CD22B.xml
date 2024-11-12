@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AD4C3296-90FE-CAE6-1632-88647F28664D" name="Diskon">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="690AD152-ACD0-204A-EFC0-6ADFE72CD22B" name="Checkout">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-06 07:40:44 UTC</createdTime>
+<createdTime>2024-11-12 10:10:44 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <engineerTo>
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="nama_diskon" id="201C63EC-A90C-3A4D-2695-879DAFD5B865">
+<Attribute name="id_checkout" id="0320319B-4DC7-CFE7-BA4B-80345040B640">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-06 07:40:53 UTC</createdTime>
+<createdTime>2024-11-12 10:10:56 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <engineerTo>
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
@@ -25,60 +25,60 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>64 CHAR</dataTypeSize>
-<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tanggal_mulai" id="F848475D-102B-3C43-DA3C-4C3896FCA2B0">
+<Attribute name="metode_pembayaran" id="7936FD97-CAFA-82AD-842D-597A87D976D6">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-06 07:41:16 UTC</createdTime>
+<createdTime>2024-11-12 10:11:15 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <engineerTo>
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tanggal_berakhir" id="AF0EBCC7-EC4A-3592-743A-350050D9590C">
+<Attribute name="total" id="011EFE53-27A6-AEA2-E727-CEA1C1CC8564">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-06 07:41:48 UTC</createdTime>
+<createdTime>2024-11-12 10:11:51 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <engineerTo>
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="diskon" id="66114082-9AF4-EA13-FD3C-512185D7DBAE">
-<createdBy>fitra</createdBy>
-<createdTime>2024-11-06 07:42:06 UTC</createdTime>
-<ownerDesignName>e_commerce_datamodel</ownerDesignName>
-<engineerTo>
-<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
+<logicalDatatype>LOGDT043</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<dataTypeScale>1</dataTypeScale>
-<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<dataTypeScale>9</dataTypeScale>
+<ownDataTypeParameters>,2,9</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_checkout" id="ADD34B9A-18A4-773F-E830-358F2F889EBA">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 10:12:23 UTC</createdTime>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<engineerTo>
+<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="6DB67669-44BF-CB3D-2154-ED22BA4806FF" name="Diskon PK">
+<identifier id="4DA78464-F121-84B2-8653-5DC6BC6AE788" name="Checkout PK">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-06 07:41:13 UTC</createdTime>
+<createdTime>2024-11-12 10:11:12 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="false"/>
+<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>201C63EC-A90C-3A4D-2695-879DAFD5B865</attributeRef>
+<attributeRef>0320319B-4DC7-CFE7-BA4B-80345040B640</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

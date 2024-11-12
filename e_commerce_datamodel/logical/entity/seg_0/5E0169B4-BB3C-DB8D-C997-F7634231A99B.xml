@@ -82,14 +82,31 @@
 <dataTypeSize>32 CHAR</dataTypeSize>
 <ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nama_diskon" id="DB019C69-FD1E-B4FD-ED89-57E2B0616912">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:08:33 UTC</createdTime>
+<generatorID>6A13FE87-5337-5F9D-D0F5-AC328C0F395C</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<engineerTo>
+<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>201C63EC-A90C-3A4D-2695-879DAFD5B865</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="E113D099-BB71-77CF-5FD6-0B4AAC66F68B" name="DetailProduk PK">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-06 07:31:16 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
+<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

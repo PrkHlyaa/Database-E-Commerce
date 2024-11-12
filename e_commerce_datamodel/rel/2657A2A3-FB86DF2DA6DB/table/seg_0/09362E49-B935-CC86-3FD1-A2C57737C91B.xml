@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="199EEED7-C8DA-B372-C97D-9BF7E9494681" name="Produk">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09362E49-B935-CC86-3FD1-A2C57737C91B" name="Produk">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-06 07:37:53 UTC</createdTime>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
 <generatorID>E0DF8827-2D7A-93FF-CF4D-3CC2309BF4C1</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_produk" id="E983F8C3-6B75-51F5-D8CC-4C1B01B74227">
+<Column name="id_produk" id="70273267-400E-6704-100C-2C21F8C99C12">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-06 07:37:53 UTC</createdTime>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
 <generatorID>43429E40-8945-881B-A95F-D8458C714ABB</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nama_produk" id="398848CB-7394-20B6-4777-3BD7437C32BF">
+<Column name="nama_produk" id="DC3944AF-8E87-670F-FC01-14EE84A62525">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-06 07:37:53 UTC</createdTime>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
 <generatorID>F78B6136-7CB4-B0F0-FA0C-5EB0A9CF1988</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,9 +32,9 @@
 <ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="kategori" id="363C19FD-7A39-1303-1407-2AFF4752A89A">
+<Column name="kategori" id="FA592E6A-67B8-84DA-48EE-580D88743BFD">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-06 07:37:53 UTC</createdTime>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
 <generatorID>5E848456-6AE9-A60B-E05E-3E8753ABE463</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -44,18 +44,30 @@
 <ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="deskripsi" id="B5B0B4CD-C877-40EE-ED2C-FD248150C648">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>36C25CA3-7DB4-E3DA-84AE-1AC1A78FC237</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="185370AC-A29A-7406-3BDC-8F1DD3EE2AEA" name="Produk_PK">
+<ind_PK_UK id="098BEC4C-B159-9302-7806-AC897B2BB561" name="Produk_PK">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-06 07:37:53 UTC</createdTime>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
 <generatorID>41FAA7AB-8853-45F2-26BB-2305F2ADFB8B</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E983F8C3-6B75-51F5-D8CC-4C1B01B74227"/>
+<colUsage columnID="70273267-400E-6704-100C-2C21F8C99C12"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

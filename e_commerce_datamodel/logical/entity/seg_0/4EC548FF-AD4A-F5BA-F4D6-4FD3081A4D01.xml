@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="alamat_id" id="C91C7AF5-0C9C-FE19-281D-A0FA476D45D0">
+<Attribute name="id_alamat" id="C91C7AF5-0C9C-FE19-281D-A0FA476D45D0">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-06 09:05:58 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
@@ -41,45 +41,6 @@
 <dataTypeSize>128 CHAR</dataTypeSize>
 <ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="kecamatan" id="9141E1AE-1099-EB02-5899-0012766B6865">
-<createdBy>fitra</createdBy>
-<createdTime>2024-11-06 09:08:03 UTC</createdTime>
-<ownerDesignName>e_commerce_datamodel</ownerDesignName>
-<engineerTo>
-<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>32 CHAR</dataTypeSize>
-<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="kabupaten" id="A22B540D-44C9-4302-CA10-D7922864460E">
-<createdBy>fitra</createdBy>
-<createdTime>2024-11-06 09:08:27 UTC</createdTime>
-<ownerDesignName>e_commerce_datamodel</ownerDesignName>
-<engineerTo>
-<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>16 CHAR</dataTypeSize>
-<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="provinsi" id="D18621A7-6212-5939-6C34-C90F7ED1A341">
-<createdBy>fitra</createdBy>
-<createdTime>2024-11-06 09:08:49 UTC</createdTime>
-<ownerDesignName>e_commerce_datamodel</ownerDesignName>
-<engineerTo>
-<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>16 CHAR</dataTypeSize>
-<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="kode_pos" id="11F6007C-7C16-5166-926E-0AB1F7074674">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-06 09:10:12 UTC</createdTime>
@@ -93,19 +54,33 @@
 <dataTypeSize>8 CHAR</dataTypeSize>
 <ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="email" id="B4397510-14C7-3CE2-892C-6418AF09ED05">
+<Attribute name="id_kecamatan" id="D0ED6351-4DEC-8EBA-3903-54A3609C6FB4">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-06 09:12:48 UTC</createdTime>
+<createdTime>2024-11-12 09:51:21 UTC</createdTime>
+<generatorID>4A112052-0783-2174-ED3E-A3E2A11A666D</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<engineerTo>
+<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
+</engineerTo>
+<referedAttribute>8B840B56-92A7-46D6-4CC6-9983B1135BCE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_customer" id="61403E4E-3DE9-E99B-8614-F1F4A0F3BCEC">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:53:37 UTC</createdTime>
 <generatorID>D7A46213-F0F6-C0AC-0FAB-466FD9D63E3C</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <engineerTo>
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
 </engineerTo>
-<referedAttribute>F43930C2-B737-75A1-57CF-4DFDBF9280A6</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<referedAttribute>6ACFA591-1ECC-74C6-6054-5620201BA2D0</referedAttribute>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>128 CHAR</dataTypeSize>
+<domain>D079455E-00AF-A58C-16B6-DA0EDAFCB9EB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -114,8 +89,9 @@
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-06 09:06:17 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
+<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

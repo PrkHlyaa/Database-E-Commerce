@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AD4C3296-90FE-CAE6-1632-88647F28664D" name="Diskon">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="007E20B9-4F1A-5679-631A-D648292B8DAF" name="Kota">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-06 07:40:44 UTC</createdTime>
+<createdTime>2024-11-12 09:48:01 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <engineerTo>
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="nama_diskon" id="201C63EC-A90C-3A4D-2695-879DAFD5B865">
+<Attribute name="id_kota" id="43B5354A-6AEA-482C-6EB3-8F83FF0A0860">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-06 07:40:53 UTC</createdTime>
+<createdTime>2024-11-12 09:48:16 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <engineerTo>
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
@@ -25,52 +25,42 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>64 CHAR</dataTypeSize>
-<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tanggal_mulai" id="F848475D-102B-3C43-DA3C-4C3896FCA2B0">
+<Attribute name="nama_kota" id="C8C899E8-1F9E-183C-FE43-6C16027264B8">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-06 07:41:16 UTC</createdTime>
+<createdTime>2024-11-12 09:48:37 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <engineerTo>
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2EEA68B0-ABAB-DECA-A0DC-4B960CFD05DD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tanggal_berakhir" id="AF0EBCC7-EC4A-3592-743A-350050D9590C">
+<Attribute name="id_provinsi" id="30B375DB-2DBD-9DF4-BED8-F23BFEB2BD98">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-06 07:41:48 UTC</createdTime>
+<createdTime>2024-11-12 09:50:51 UTC</createdTime>
+<generatorID>00E31B1E-973F-B8D1-D430-8680718EF790</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <engineerTo>
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
 </engineerTo>
+<referedAttribute>A22DDDEF-7C09-938F-3F86-99FB32533B16</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="diskon" id="66114082-9AF4-EA13-FD3C-512185D7DBAE">
-<createdBy>fitra</createdBy>
-<createdTime>2024-11-06 07:42:06 UTC</createdTime>
-<ownerDesignName>e_commerce_datamodel</ownerDesignName>
-<engineerTo>
-<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<dataTypeScale>1</dataTypeScale>
-<ownDataTypeParameters>,2,1</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="6DB67669-44BF-CB3D-2154-ED22BA4806FF" name="Diskon PK">
+<identifier id="C51DC4EC-D0D4-5E39-19ED-692208A2460A" name="Kota PK">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-06 07:41:13 UTC</createdTime>
+<createdTime>2024-11-12 09:48:36 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -78,7 +68,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>201C63EC-A90C-3A4D-2695-879DAFD5B865</attributeRef>
+<attributeRef>43B5354A-6AEA-482C-6EB3-8F83FF0A0860</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

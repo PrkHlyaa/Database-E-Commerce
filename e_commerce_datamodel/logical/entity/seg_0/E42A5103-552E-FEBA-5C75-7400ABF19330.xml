@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="keranjang_id" id="1F4340A5-952C-1EFF-8A01-0450C36A31FC">
+<Attribute name="id_keranjang" id="1F4340A5-952C-1EFF-8A01-0450C36A31FC">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-06 09:37:14 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
@@ -54,22 +54,6 @@
 <dataTypeScale>6</dataTypeScale>
 <ownDataTypeParameters>,2,6</ownDataTypeParameters>
 </Attribute>
-<Attribute name="email" id="1ABB7CA7-7325-1557-2B12-721224057244">
-<createdBy>fitra</createdBy>
-<createdTime>2024-11-11 23:38:29 UTC</createdTime>
-<generatorID>CAB089FD-51D4-2D14-7C17-6A39D05BE4EF</generatorID>
-<ownerDesignName>e_commerce_datamodel</ownerDesignName>
-<engineerTo>
-<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>F43930C2-B737-75A1-57CF-4DFDBF9280A6</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>128 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id_detail_produk" id="D03D08BB-48E1-46CF-932F-051B7C17AE62">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-11 23:39:12 UTC</createdTime>
@@ -84,6 +68,36 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_customer" id="1E77BD54-A857-3361-E430-E5EA89032800">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:53:37 UTC</createdTime>
+<generatorID>CAB089FD-51D4-2D14-7C17-6A39D05BE4EF</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<engineerTo>
+<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6ACFA591-1ECC-74C6-6054-5620201BA2D0</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D079455E-00AF-A58C-16B6-DA0EDAFCB9EB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_checkout" id="812FA63E-60C9-4C47-2ABF-20D80B6BCF04">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 10:13:40 UTC</createdTime>
+<generatorID>0E97207F-1E60-D846-2632-098E1C85647F</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<engineerTo>
+<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
+</engineerTo>
+<referedAttribute>0320319B-4DC7-CFE7-BA4B-80345040B640</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -92,8 +106,9 @@
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-06 09:37:40 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
+<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

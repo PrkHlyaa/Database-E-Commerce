@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8687711-08DE-2DB0-4AF9-1B7DCFE25070" name="Customer">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>6F562142-8DE2-B84B-F0FF-F2E33874FE7E</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="email" id="967E4164-E44C-7E44-62C6-64BE781AF812">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>F43930C2-B737-75A1-57CF-4DFDBF9280A6</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="F7E31A19-5B8B-54BA-E4D4-4F53AFF22C57">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>30845B8E-C587-BDD3-8166-0185E7ADEADD</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="4842C19D-E590-3101-583C-EBC73339A381">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>128541A6-BF5E-4216-9382-4EC1073E92E1</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_customer" id="5B55DD5B-2774-7764-662D-19A61C175884">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:53:44 UTC</createdTime>
+<generatorID>6ACFA591-1ECC-74C6-6054-5620201BA2D0</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D079455E-00AF-A58C-16B6-DA0EDAFCB9EB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C6B7C3A-8225-E64B-EA6F-35F8C0A623AE" name="Customer_PK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>762CA0BE-C418-D634-21D2-0EAE29DC75FA</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="967E4164-E44C-7E44-62C6-64BE781AF812"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F1DB3E97-E80F-0B7C-0257-52B45C32D2FD" name="Wishlist">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E86939C-50C7-9EC4-8F41-0FD507919A32" name="provinsi">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-06 09:31:46 UTC</createdTime>
+<createdTime>2024-11-12 09:50:04 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <engineerTo>
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_wishlist" id="CD30CB14-F879-9B66-D3F5-5C159AA9E340">
+<Attribute name="id_provinsi" id="A22DDDEF-7C09-938F-3F86-99FB32533B16">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-06 09:31:52 UTC</createdTime>
+<createdTime>2024-11-12 09:50:10 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <engineerTo>
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
@@ -25,45 +25,27 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>8 CHAR</dataTypeSize>
-<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_detail_produk" id="C5C302F5-3AC7-9687-B56A-65462CFA0667">
+<Attribute name="nama_provinsi" id="8C72A79F-B1BC-4825-B708-6BDDFE33584A">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-11 23:38:54 UTC</createdTime>
-<generatorID>E04F2FDE-7537-C97F-7F34-D4AC306755D8</generatorID>
+<createdTime>2024-11-12 09:50:26 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <engineerTo>
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<referedAttribute>521F3512-DBE0-8788-FA82-5AB7690FEA50</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>16 CHAR</dataTypeSize>
-<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_customer" id="EFBACDFB-979A-54E6-D8A8-F504FB4029C6">
-<createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:53:37 UTC</createdTime>
-<generatorID>061C4340-349F-A727-34F2-EAF2BBDFAB9C</generatorID>
-<ownerDesignName>e_commerce_datamodel</ownerDesignName>
-<engineerTo>
-<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>6ACFA591-1ECC-74C6-6054-5620201BA2D0</referedAttribute>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D079455E-00AF-A58C-16B6-DA0EDAFCB9EB</domain>
+<domain>2EEA68B0-ABAB-DECA-A0DC-4B960CFD05DD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="452EDBF8-064B-E3B6-705D-E56A9DDBAD4D" name="Wishlist PK">
+<identifier id="F418428C-962A-0C1B-7C5E-B19B321E466B" name="provinsi PK">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-06 09:32:55 UTC</createdTime>
+<createdTime>2024-11-12 09:50:25 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -71,7 +53,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>CD30CB14-F879-9B66-D3F5-5C159AA9E340</attributeRef>
+<attributeRef>A22DDDEF-7C09-938F-3F86-99FB32533B16</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

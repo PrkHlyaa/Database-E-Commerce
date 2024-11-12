@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7DBA1B8F-AB13-0BC9-F201-FAC9B0CC96E3" containerWithKeyObject="431318FC-1ABA-5594-2CA5-749D36DFC010" localFKIndex="62007855-3EB2-F813-2ECA-5D34693A0CA9" name="Keranjang_Customer_FK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>CAB089FD-51D4-2D14-7C17-6A39D05BE4EF</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<referredTableLongName>Customer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A8687711-08DE-2DB0-4AF9-1B7DCFE25070</referredTableID>
+<keyObject>1C6B7C3A-8225-E64B-EA6F-35F8C0A623AE</keyObject>
+<referredKeyID>1C6B7C3A-8225-E64B-EA6F-35F8C0A623AE</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>email</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

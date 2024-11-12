@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="431318FC-1ABA-5594-2CA5-749D36DFC010" name="Keranjang">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>E42A5103-552E-FEBA-5C75-7400ABF19330</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_keranjang" id="F8AFFF04-FD9D-4B52-2E98-78C802756B97">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>1F4340A5-952C-1EFF-8A01-0450C36A31FC</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kuantitas" id="D1160314-40B7-DE79-8234-D2F5A2E99DD6">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>9758996E-0F62-B25A-1C8D-5D8540D0B677</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subtotal" id="1E972329-E3EA-6F98-5057-702913483D25">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>054A20BC-0916-5678-F310-26544248493C</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,2,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="7D3A50E2-5C9D-457D-4DD4-28C012CC5707">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>1ABB7CA7-7325-1557-2B12-721224057244</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DBA1B8F-AB13-0BC9-F201-FAC9B0CC96E3" referredColumn="967E4164-E44C-7E44-62C6-64BE781AF812"/>
+</associations>
+</Column>
+<Column name="id_detail_produk" id="87D2FBB2-9EFA-14F8-C608-1A2B20D7CB74">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>D03D08BB-48E1-46CF-932F-051B7C17AE62</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98B6FE8E-C8C6-297C-1D27-91292703E2E6" referredColumn="D670000A-B87A-F68D-6EA4-C4255D282388"/>
+</associations>
+</Column>
+<Column name="id_customer" id="FB35E1D2-3CDD-9CAA-CB1C-5C809B200472">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:53:44 UTC</createdTime>
+<generatorID>1E77BD54-A857-3361-E430-E5EA89032800</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D079455E-00AF-A58C-16B6-DA0EDAFCB9EB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_checkout" id="D2A640D9-F2B5-53B1-2BA9-1EE8C3ECA5FD">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 10:14:09 UTC</createdTime>
+<generatorID>812FA63E-60C9-4C47-2ABF-20D80B6BCF04</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D29A8D7B-3B66-0568-D098-E916B8CB231D" referredColumn="E058EC54-0ABA-F958-FD47-E681E5245B42"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06915906-D7BE-E96A-FDA9-3F2DD6F2543C" name="Keranjang_PK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>84BA9C83-9441-2BF7-2893-BFDCED54D846</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8AFFF04-FD9D-4B52-2E98-78C802756B97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62007855-3EB2-F813-2ECA-5D34693A0CA9" name="Keranjang_Customer_FK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>CAB089FD-51D4-2D14-7C17-6A39D05BE4EF</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D3A50E2-5C9D-457D-4DD4-28C012CC5707"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F71348CA-F242-4370-25B2-9DB0F07092B0" name="Keranjang_DetailProduk_FK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>4BF01839-BBBB-A971-5EC9-521B8C3877D4</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87D2FBB2-9EFA-14F8-C608-1A2B20D7CB74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8874125E-A870-F6F7-CA1E-56EF2049001A" name="Keranjang_Checkout_FK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 10:14:09 UTC</createdTime>
+<generatorID>0E97207F-1E60-D846-2632-098E1C85647F</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2A640D9-F2B5-53B1-2BA9-1EE8C3ECA5FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

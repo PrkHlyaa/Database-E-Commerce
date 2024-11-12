@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="barang_diskon" directorySegmentName="seg_0" id="46EBD6C0-EBE5-8FD4-5DE8-D0532A1A1E8F">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="diskon_produk" directorySegmentName="seg_0" id="6A13FE87-5337-5F9D-D0F5-AC328C0F395C">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-06 08:00:40 UTC</createdTime>
+<createdTime>2024-11-12 09:08:33 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <engineerTo>
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
 </engineerTo>
-<sourcePk>E113D099-BB71-77CF-5FD6-0B4AAC66F68B</sourcePk>
+<sourcePk>6DB67669-44BF-CB3D-2154-ED22BA4806FF</sourcePk>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>5E0169B4-BB3C-DB8D-C997-F7634231A99B</sourceEntity>
+<sourceEntity>AD4C3296-90FE-CAE6-1632-88647F28664D</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>AD4C3296-90FE-CAE6-1632-88647F28664D</targetEntity>
+<targetEntity>5E0169B4-BB3C-DB8D-C997-F7634231A99B</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

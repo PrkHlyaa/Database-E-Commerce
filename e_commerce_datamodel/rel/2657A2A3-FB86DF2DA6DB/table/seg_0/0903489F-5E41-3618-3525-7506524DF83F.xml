@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0903489F-5E41-3618-3525-7506524DF83F" name="Wishlist">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>F1DB3E97-E80F-0B7C-0257-52B45C32D2FD</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_wishlist" id="1B54DD51-3F0E-DE45-45FE-C6FEC0846FD6">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>CD30CB14-F879-9B66-D3F5-5C159AA9E340</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="602B4686-18EB-CFEC-63C2-E7D4BA6EB927">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>7FF2CCB3-41BA-9991-886E-1E0A380DF14E</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D06EDE36-706E-2948-4413-9BCE0A4723C9" referredColumn="967E4164-E44C-7E44-62C6-64BE781AF812"/>
+</associations>
+</Column>
+<Column name="id_detail_produk" id="E1C48092-FF37-F015-2E7E-66BE46390282">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>C5C302F5-3AC7-9687-B56A-65462CFA0667</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="808259C1-28A4-3166-4F55-719820F88208" referredColumn="D670000A-B87A-F68D-6EA4-C4255D282388"/>
+</associations>
+</Column>
+<Column name="id_customer" id="887DE268-7301-5176-14AC-9F05D6A25AAC">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:53:44 UTC</createdTime>
+<generatorID>EFBACDFB-979A-54E6-D8A8-F504FB4029C6</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D079455E-00AF-A58C-16B6-DA0EDAFCB9EB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84040FB6-166C-35FE-A893-D03BC2C350BF" name="Wishlist_PK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>452EDBF8-064B-E3B6-705D-E56A9DDBAD4D</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B54DD51-3F0E-DE45-45FE-C6FEC0846FD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2082A965-EDBA-8A58-BC60-D0905ED4230D" name="Wishlist_DetailProduk_FK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>E04F2FDE-7537-C97F-7F34-D4AC306755D8</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1C48092-FF37-F015-2E7E-66BE46390282"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DEA72F5-7FBC-BC19-681A-7A1C9CFD6906" name="Wishlist_Customer_FK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<generatorID>061C4340-349F-A727-34F2-EAF2BBDFAB9C</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="602B4686-18EB-CFEC-63C2-E7D4BA6EB927"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
