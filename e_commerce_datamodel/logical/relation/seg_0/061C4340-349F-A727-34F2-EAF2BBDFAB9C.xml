@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="wishlist_customer" directorySegmentName="seg_0" id="061C4340-349F-A727-34F2-EAF2BBDFAB9C">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-11 23:37:44 UTC</createdTime>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<engineerTo>
+<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
+</engineerTo>
+<sourcePk>762CA0BE-C418-D634-21D2-0EAE29DC75FA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6F562142-8DE2-B84B-F0FF-F2E33874FE7E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F1DB3E97-E80F-0B7C-0257-52B45C32D2FD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

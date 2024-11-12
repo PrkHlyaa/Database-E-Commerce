@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="product_on_cart" directorySegmentName="seg_0" id="4BF01839-BBBB-A971-5EC9-521B8C3877D4">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-11 23:39:12 UTC</createdTime>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<engineerTo>
+<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
+</engineerTo>
+<sourcePk>E113D099-BB71-77CF-5FD6-0B4AAC66F68B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5E0169B4-BB3C-DB8D-C997-F7634231A99B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E42A5103-552E-FEBA-5C75-7400ABF19330</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

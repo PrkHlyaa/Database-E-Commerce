@@ -54,6 +54,38 @@
 <dataTypeScale>6</dataTypeScale>
 <ownDataTypeParameters>,2,6</ownDataTypeParameters>
 </Attribute>
+<Attribute name="email" id="1ABB7CA7-7325-1557-2B12-721224057244">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-11 23:38:29 UTC</createdTime>
+<generatorID>CAB089FD-51D4-2D14-7C17-6A39D05BE4EF</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<engineerTo>
+<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F43930C2-B737-75A1-57CF-4DFDBF9280A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_detail_produk" id="D03D08BB-48E1-46CF-932F-051B7C17AE62">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-11 23:39:12 UTC</createdTime>
+<generatorID>4BF01839-BBBB-A971-5EC9-521B8C3877D4</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<engineerTo>
+<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>521F3512-DBE0-8788-FA82-5AB7690FEA50</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="84BA9C83-9441-2BF7-2893-BFDCED54D846" name="Keranjang PK">
