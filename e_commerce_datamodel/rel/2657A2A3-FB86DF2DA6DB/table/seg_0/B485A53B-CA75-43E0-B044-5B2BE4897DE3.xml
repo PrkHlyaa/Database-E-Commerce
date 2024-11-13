@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B485A53B-CA75-43E0-B044-5B2BE4897DE3" name="Wishlist">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>F1DB3E97-E80F-0B7C-0257-52B45C32D2FD</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_wishlist" id="D0D6BD4D-75CC-411E-FD2B-BA8FEA63879C">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>CD30CB14-F879-9B66-D3F5-5C159AA9E340</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_detail_produk" id="A44CC298-80E8-1C1E-AF14-C0878B3A81C4">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>C5C302F5-3AC7-9687-B56A-65462CFA0667</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>31 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4977835D-255D-BC2D-4FFC-048704949F8A" referredColumn="964BCAA0-4B39-57A7-078B-0A3DA5A68AB1"/>
+</associations>
+</Column>
+<Column name="id_customer" id="FF7B6DDC-0258-2193-A36D-91FEC43646CB">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>5C2ACEAC-9B56-6BD1-D3C2-D5C371113138</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62C29880-0F24-066C-79CE-8C1FF3FF45EA" referredColumn="AAA4ACF5-1C38-1513-B265-49489CFF7975"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27E091E7-2228-679B-45AC-4F060882CACB" name="Wishlist_PK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>452EDBF8-064B-E3B6-705D-E56A9DDBAD4D</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0D6BD4D-75CC-411E-FD2B-BA8FEA63879C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFAAF577-7A8F-FA2F-8A4E-343039C4D7AD" name="Wishlist_Customer_FK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>061C4340-349F-A727-34F2-EAF2BBDFAB9C</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF7B6DDC-0258-2193-A36D-91FEC43646CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFE1DB0D-13F9-81BF-3B4C-D8FD3D84F067" name="Wishlist_DetailProduk_FK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>E04F2FDE-7537-C97F-7F34-D4AC306755D8</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A44CC298-80E8-1C1E-AF14-C0878B3A81C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

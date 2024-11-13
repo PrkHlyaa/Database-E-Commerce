@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_14" directorySegmentName="seg_0" id="90D5FAAB-15F8-FFF7-472B-BC3CB2399FEC">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:46:43 UTC</createdTime>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<engineerTo>
+<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
+</engineerTo>
+<sourcePk>73AFE3C0-9FDE-1281-FA0E-48549C200FAD</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D49036C4-1072-4407-7FC1-E9CBB2B807DB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>690AD152-ACD0-204A-EFC0-6ADFE72CD22B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

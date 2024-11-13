@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6353159-5BC8-198D-6448-1B75E7A47ADC" name="AlamatCustomer">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>A428497F-7D26-428D-E0B9-6F49B78BDB5D</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_alamat" id="1065867E-6CC4-D8E7-CD75-A7ADA66383D2">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>2FE33C56-5765-386E-145A-8FD3C8017518</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="detail_alamat" id="15018E1B-623C-4DFE-DBB7-0186D8572014">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>64317533-A9A2-1BC7-747B-BA5378626AF3</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kode_pos" id="14BB586F-C0DB-FBF1-333B-A919F1422C10">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>90E0D371-F6F7-A002-F51C-A8E0075840C0</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_kecamatan" id="2E75D7A2-DC21-8393-FE71-F002A07DFBCB">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>9B30C4C9-0F07-2439-3286-6FC459178A52</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFFBADA5-7E55-1D25-BD85-D74039874A73" referredColumn="8D03D62B-F2C7-2794-4A0A-53543DBAAD4A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CFC1C7C1-C4A9-B38A-A717-4D6F84E10E94" name="AlamatCustomer_PK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>A9FA23F2-640A-2F90-B34E-B84594E4A719</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1065867E-6CC4-D8E7-CD75-A7ADA66383D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA645480-F1A8-A40B-E586-6CD32D8192E9" name="AlamatCustomer_Kecamatan_FK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>2DA8A6C0-7CF4-54BE-39EC-64D537FBC5A9</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E75D7A2-DC21-8393-FE71-F002A07DFBCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

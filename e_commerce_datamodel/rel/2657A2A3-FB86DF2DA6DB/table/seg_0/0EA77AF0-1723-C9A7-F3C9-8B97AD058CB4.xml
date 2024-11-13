@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0EA77AF0-1723-C9A7-F3C9-8B97AD058CB4" name="DetailProduk">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>5E0169B4-BB3C-DB8D-C997-F7634231A99B</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_detail_produk" id="964BCAA0-4B39-57A7-078B-0A3DA5A68AB1">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>521F3512-DBE0-8788-FA82-5AB7690FEA50</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>31 CHAR</dataTypeSize>
+<ownDataTypeParameters>31 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ukuran" id="3EAC5A01-F356-7EE6-3AC5-909A6886E510">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>8D7C053D-9F0C-401B-F320-BA9339D75552</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stok" id="9C3572E7-F188-F840-E335-E1E2ECC5D276">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>FACB1D53-1389-A4DC-7609-0D4D7F9CCD62</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="harga_reguler" id="BCF8B8F8-F60B-31B5-45B0-B683A944F39E">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>DE8B0394-C8E5-3816-2570-F3143D2A1D6C</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_produk" id="1295DB64-AA12-30BB-720C-5293F1D49A9F">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>6CF5045B-7992-F41C-C03E-7A39CDD399C2</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="222C52D0-05D4-4F9C-FD17-B8A1803C0128" referredColumn="194F540B-2EBE-46BA-ACF9-D1A24B99ECBA"/>
+</associations>
+</Column>
+<Column name="nama_diskon" id="FA33DF22-B0C6-680C-1F9C-65E70785F6B2">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>DB019C69-FD1E-B4FD-ED89-57E2B0616912</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D81EFA08-C350-5CF7-6052-3A44081B7B28" referredColumn="4461E5E4-DC54-1DE2-AF48-9BE87C258DE1"/>
+</associations>
+</Column>
+<Column name="id_diskon" id="ECD2AB88-BA87-FD4A-6CBA-81BFA81DCC53">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>0650A9D4-BE85-D917-0F1D-DCEE37B4F5AE</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D81EFA08-C350-5CF7-6052-3A44081B7B28" referredColumn="DB8AD8D2-BD68-6CF6-3B68-6A2EFDBC1890"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="269F8E4B-812A-5844-634C-45DA6AE4D3AE" name="DetailProduk_PK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>E113D099-BB71-77CF-5FD6-0B4AAC66F68B</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="964BCAA0-4B39-57A7-078B-0A3DA5A68AB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="397B0677-06C7-ECE5-EF5F-A75E4B44571C" name="DetailProduk_Diskon_FK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>6A13FE87-5337-5F9D-D0F5-AC328C0F395C</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA33DF22-B0C6-680C-1F9C-65E70785F6B2"/>
+<colUsage columnID="ECD2AB88-BA87-FD4A-6CBA-81BFA81DCC53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BDBD481A-508D-3366-2DB8-8DFE6217EBD6" name="DetailProduk_Produk_FK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>B7239AA7-85AE-3DD6-48E5-AE5634C9368C</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1295DB64-AA12-30BB-720C-5293F1D49A9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

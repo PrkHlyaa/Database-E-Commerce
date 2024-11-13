@@ -101,6 +101,18 @@
 <dataTypeSize>32 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_metode" id="07EBB6E1-271D-2C5F-6F33-5F3AA5152A1A">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:46:43 UTC</createdTime>
+<generatorID>0E97207F-1E60-D846-2632-098E1C85647F</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<engineerTo>
+<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
+</engineerTo>
+<referedAttribute>E102FAE5-B738-FA40-BF7D-93C632758C00</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="84BA9C83-9441-2BF7-2893-BFDCED54D846" name="Keranjang PK">

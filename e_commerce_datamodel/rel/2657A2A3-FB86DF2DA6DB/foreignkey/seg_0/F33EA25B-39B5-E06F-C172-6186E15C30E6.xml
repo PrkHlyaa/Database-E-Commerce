@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F33EA25B-39B5-E06F-C172-6186E15C30E6" containerWithKeyObject="83AA276F-FDFE-113C-C504-55522EC32AB9" localFKIndex="BB615B76-CB40-63B6-0E64-B1A4154B3228" name="Customer_AlamatCustomer_FK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>2B1AACBD-DDDE-8552-AEAB-9C59505D3EFF</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<referredTableLongName>AlamatCustomer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C6353159-5BC8-198D-6448-1B75E7A47ADC</referredTableID>
+<keyObject>CFC1C7C1-C4A9-B38A-A717-4D6F84E10E94</keyObject>
+<referredKeyID>CFC1C7C1-C4A9-B38A-A717-4D6F84E10E94</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_alamat</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

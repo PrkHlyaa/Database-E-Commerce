@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BFFBADA5-7E55-1D25-BD85-D74039874A73" containerWithKeyObject="C6353159-5BC8-198D-6448-1B75E7A47ADC" localFKIndex="DA645480-F1A8-A40B-E586-6CD32D8192E9" name="AlamatCustomer_Kecamatan_FK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:49:58 UTC</createdTime>
+<generatorID>2DA8A6C0-7CF4-54BE-39EC-64D537FBC5A9</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<referredTableLongName>Kecamatan</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7010D85B-70F0-2E67-CBA3-6FB1E7F8B8CF</referredTableID>
+<keyObject>EE22E07C-A727-D3E8-6492-729F20A73192</keyObject>
+<referredKeyID>EE22E07C-A727-D3E8-6492-729F20A73192</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_kecamatan</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
