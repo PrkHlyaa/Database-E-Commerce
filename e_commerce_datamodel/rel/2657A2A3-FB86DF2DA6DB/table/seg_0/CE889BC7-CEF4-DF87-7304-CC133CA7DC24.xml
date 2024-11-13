@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE889BC7-CEF4-DF87-7304-CC133CA7DC24" name="AlamatCustomer">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:35:05 UTC</createdTime>
+<generatorID>A428497F-7D26-428D-E0B9-6F49B78BDB5D</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_alamat" id="39D15847-F683-846B-05B7-F0A1BC50CC16">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:35:05 UTC</createdTime>
+<generatorID>2FE33C56-5765-386E-145A-8FD3C8017518</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="detail_alamat" id="F2016E1B-8BEF-CD12-AC94-CD57747E236D">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:35:05 UTC</createdTime>
+<generatorID>64317533-A9A2-1BC7-747B-BA5378626AF3</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kode_pos" id="B59CF5BB-0D67-871A-EC99-68BCCB3D984B">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:35:05 UTC</createdTime>
+<generatorID>90E0D371-F6F7-A002-F51C-A8E0075840C0</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_kecamatan" id="AA27F4C7-BDED-4438-47EB-69A4412D820C">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:35:05 UTC</createdTime>
+<generatorID>9B30C4C9-0F07-2439-3286-6FC459178A52</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7C159F1-97FA-4D53-B1B8-62A8CC3B9D0E" referredColumn="40024EEA-9554-F0F5-C1A6-14304D031B14"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="700FE26D-C3DE-B3E6-CAFA-798588224BD8" name="AlamatCustomer_PK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:35:05 UTC</createdTime>
+<generatorID>A9FA23F2-640A-2F90-B34E-B84594E4A719</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39D15847-F683-846B-05B7-F0A1BC50CC16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FABEC21E-DB85-948F-F47B-41EDC3BAD40D" name="AlamatCustomer_Kecamatan_FK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:35:06 UTC</createdTime>
+<generatorID>2DA8A6C0-7CF4-54BE-39EC-64D537FBC5A9</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA27F4C7-BDED-4438-47EB-69A4412D820C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

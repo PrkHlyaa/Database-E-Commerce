@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id produk" id="43429E40-8945-881B-A95F-D8458C714ABB">
+<Attribute name="id_produk" id="43429E40-8945-881B-A95F-D8458C714ABB">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-06 07:23:05 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>

@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id keranjang" id="1F4340A5-952C-1EFF-8A01-0450C36A31FC">
+<Attribute name="id_keranjang" id="1F4340A5-952C-1EFF-8A01-0450C36A31FC">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-06 09:37:14 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
@@ -25,8 +25,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>16 CHAR</dataTypeSize>
-<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="kuantitas" id="9758996E-0F62-B25A-1C8D-5D8540D0B677">
 <createdBy>fitra</createdBy>
@@ -54,7 +54,7 @@
 <dataTypeScale>6</dataTypeScale>
 <ownDataTypeParameters>,2,6</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DetailProduk id detail produk" id="D03D08BB-48E1-46CF-932F-051B7C17AE62">
+<Attribute name="id_detail_produk" id="D03D08BB-48E1-46CF-932F-051B7C17AE62">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-11 23:39:12 UTC</createdTime>
 <generatorID>4BF01839-BBBB-A971-5EC9-521B8C3877D4</generatorID>
@@ -70,7 +70,7 @@
 <dataTypeSize>16 CHAR</dataTypeSize>
 <ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Checkout id checkout" id="812FA63E-60C9-4C47-2ABF-20D80B6BCF04">
+<Attribute name="id_checkout" id="812FA63E-60C9-4C47-2ABF-20D80B6BCF04">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-12 10:13:40 UTC</createdTime>
 <generatorID>0E97207F-1E60-D846-2632-098E1C85647F</generatorID>
@@ -85,36 +85,21 @@
 <dataTypeSize>16 CHAR</dataTypeSize>
 <ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Customer email" id="B29B6B96-6D37-196E-447B-78797889AAF5">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-13 00:43:55 UTC</createdTime>
+<Attribute name="id_customer" id="CFD65F6C-7ACC-963B-C174-A1D22B1C598F">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:22:56 UTC</createdTime>
 <generatorID>CAB089FD-51D4-2D14-7C17-6A39D05BE4EF</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <engineerTo>
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<referedAttribute>F43930C2-B737-75A1-57CF-4DFDBF9280A6</referedAttribute>
+<referedAttribute>6ACFA591-1ECC-74C6-6054-5620201BA2D0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>128 CHAR</dataTypeSize>
+<dataTypeSize>32 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id customer" id="09FCA87F-1F90-F6AD-6D37-96F87DE14177">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-13 00:45:39 UTC</createdTime>
-<generatorID>FB35E1D2-3CDD-9CAA-CB1C-5C809B200472</generatorID>
-<ownerDesignName>e_commerce_datamodel</ownerDesignName>
-<engineerTo>
-<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>32</dataTypeSize>
-<ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

@@ -1,16 +1,28 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8831AFA-BB65-A873-A323-4C6271F908D1" name="Diskon">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A2F836D-6A1E-CCBB-9657-3D5B49873172" name="Diskon">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<createdTime>2024-11-13 01:35:06 UTC</createdTime>
 <generatorID>AD4C3296-90FE-CAE6-1632-88647F28664D</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="nama_diskon" id="5C71795E-BE0B-7ABF-D20C-6DC261B0C79F">
+<Column name="id_diskon" id="A4CD0DF6-7026-D1AD-8320-CD38C9856DB9">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<createdTime>2024-11-13 01:35:06 UTC</createdTime>
+<generatorID>E884EF3D-4D3A-5A13-408D-996EB3BD01DB</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_diskon" id="2C3AAFA7-2ED8-028E-84F0-3F92EE65694C">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:35:06 UTC</createdTime>
 <generatorID>201C63EC-A90C-3A4D-2695-879DAFD5B865</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +32,9 @@
 <ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tanggal_mulai" id="0616BB9C-36A9-A515-A87A-3DB0D8BD85AF">
+<Column name="tanggal_mulai" id="88D30B72-81B3-EF11-3591-F7206EF1F659">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<createdTime>2024-11-13 01:35:06 UTC</createdTime>
 <generatorID>F848475D-102B-3C43-DA3C-4C3896FCA2B0</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,9 +43,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tanggal_berakhir" id="AC27AACA-0C87-4B55-332B-1C5625CFCC7F">
+<Column name="tanggal_berakhir" id="9BEA1D68-8F94-0F6D-E6F9-A338F9F0841D">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<createdTime>2024-11-13 01:35:06 UTC</createdTime>
 <generatorID>AF0EBCC7-EC4A-3592-743A-350050D9590C</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -42,9 +54,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="diskon" id="C02DBA6B-996F-2978-A347-25280E489FB7">
+<Column name="diskon" id="DF353A9F-44DE-21A3-9FB9-587F20FA640C">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<createdTime>2024-11-13 01:35:06 UTC</createdTime>
 <generatorID>66114082-9AF4-EA13-FD3C-512185D7DBAE</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -57,16 +69,17 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1371433E-AE92-B905-19C3-DB1FB6BDD216" name="Diskon_PK">
+<ind_PK_UK id="B76E3BCE-2902-C2FB-20C4-011E29215403" name="Diskon_PK">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<createdTime>2024-11-13 01:35:06 UTC</createdTime>
 <generatorID>6DB67669-44BF-CB3D-2154-ED22BA4806FF</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5C71795E-BE0B-7ABF-D20C-6DC261B0C79F"/>
+<colUsage columnID="2C3AAFA7-2ED8-028E-84F0-3F92EE65694C"/>
+<colUsage columnID="A4CD0DF6-7026-D1AD-8320-CD38C9856DB9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,28 +1,28 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E89EBA53-8D82-EE5C-42AA-37E19A912DFC" name="DetailProduk">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F8801F4-7DE4-22D8-038F-B778763ECC1B" name="DetailProduk">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<createdTime>2024-11-13 01:35:05 UTC</createdTime>
 <generatorID>5E0169B4-BB3C-DB8D-C997-F7634231A99B</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_detail_produk" id="D670000A-B87A-F68D-6EA4-C4255D282388">
+<Column name="id_detail_produk" id="71307748-56FC-67B0-212A-24098D623EEF">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<createdTime>2024-11-13 01:35:05 UTC</createdTime>
 <generatorID>521F3512-DBE0-8788-FA82-5AB7690FEA50</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>16 CHAR</dataTypeSize>
-<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>31 CHAR</dataTypeSize>
+<ownDataTypeParameters>31 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ukuran" id="B8503305-BC7C-DEDD-5770-F6E7BA8D4EDB">
+<Column name="ukuran" id="C4C1B146-0A40-80EB-FF3E-991BE0022496">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<createdTime>2024-11-13 01:35:05 UTC</createdTime>
 <generatorID>8D7C053D-9F0C-401B-F320-BA9339D75552</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,9 +32,9 @@
 <ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="stok" id="227BBF45-6BEA-35EB-6026-90E06F6B39D3">
+<Column name="stok" id="75BE1449-5149-621E-49B6-49231DF04418">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<createdTime>2024-11-13 01:35:05 UTC</createdTime>
 <generatorID>FACB1D53-1389-A4DC-7609-0D4D7F9CCD62</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -43,9 +43,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="harga_reguler" id="2618B6B6-8790-A9D7-0D18-EE7A38DCB736">
+<Column name="harga_reguler" id="E109DCFA-EF5E-3D62-6045-27210FD5D16D">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<createdTime>2024-11-13 01:35:05 UTC</createdTime>
 <generatorID>DE8B0394-C8E5-3816-2570-F3143D2A1D6C</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -56,25 +56,25 @@
 <ownDataTypeParameters>,2,10</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Produk_id_produk" id="3553D79F-638E-E41F-5263-85E54933B9DD">
+<Column name="id_produk" id="5CB4FE3B-A6F9-DF03-B6D4-1DBF7C1F04F2">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<createdTime>2024-11-13 01:35:05 UTC</createdTime>
 <generatorID>6CF5045B-7992-F41C-C03E-7A39CDD399C2</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>32 CHAR</dataTypeSize>
-<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="52862D30-34BF-7158-FBC6-3C6475B0E0B7" referredColumn="70273267-400E-6704-100C-2C21F8C99C12"/>
+<colAssociation fkAssociation="3C1B1F11-26CB-27FB-6F59-2C40142CA5B6" referredColumn="D6675684-41BC-79E6-ED74-F60FE177B92E"/>
 </associations>
 </Column>
-<Column name="Diskon_nama_diskon" id="088D6602-C3B1-0B0A-8931-84C0E941D4E3">
+<Column name="nama_diskon" id="87630269-97A4-3CDE-865C-02A111CBA8A8">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<createdTime>2024-11-13 01:35:05 UTC</createdTime>
 <generatorID>DB019C69-FD1E-B4FD-ED89-57E2B0616912</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -82,47 +82,65 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>64 CHAR</dataTypeSize>
-<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="7573F141-502F-7CE7-C2EC-4D082C936651" referredColumn="5C71795E-BE0B-7ABF-D20C-6DC261B0C79F"/>
+<colAssociation fkAssociation="8BDE8B5D-DE46-4A38-2D04-A3960604BFC3" referredColumn="2C3AAFA7-2ED8-028E-84F0-3F92EE65694C"/>
+</associations>
+</Column>
+<Column name="id_diskon" id="F2048E1F-D1C5-2D87-CA30-653CD96E6CBD">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:35:05 UTC</createdTime>
+<generatorID>0650A9D4-BE85-D917-0F1D-DCEE37B4F5AE</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BDE8B5D-DE46-4A38-2D04-A3960604BFC3" referredColumn="A4CD0DF6-7026-D1AD-8320-CD38C9856DB9"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="AD1262E0-39E8-15A7-DF14-CCD65592456A" name="DetailProduk_PK">
+<ind_PK_UK id="8C6B531F-B6FF-318A-44E0-1CB4E674190A" name="DetailProduk_PK">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<createdTime>2024-11-13 01:35:05 UTC</createdTime>
 <generatorID>E113D099-BB71-77CF-5FD6-0B4AAC66F68B</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D670000A-B87A-F68D-6EA4-C4255D282388"/>
+<colUsage columnID="71307748-56FC-67B0-212A-24098D623EEF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="866CA717-2A55-9722-A25C-D852662D48F4" name="DetailProduk_Diskon_FK">
+<ind_PK_UK id="5BAABCB2-8006-3B4A-D8EF-7DF83AD3EB76" name="DetailProduk_Diskon_FK">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<createdTime>2024-11-13 01:35:06 UTC</createdTime>
 <generatorID>6A13FE87-5337-5F9D-D0F5-AC328C0F395C</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="088D6602-C3B1-0B0A-8931-84C0E941D4E3"/>
+<colUsage columnID="87630269-97A4-3CDE-865C-02A111CBA8A8"/>
+<colUsage columnID="F2048E1F-D1C5-2D87-CA30-653CD96E6CBD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6664B2BB-A881-8E01-DCBF-9ADDE41779F7" name="DetailProduk_Produk_FK">
+<ind_PK_UK id="B0043D92-BBAE-B3DF-F982-188129180795" name="DetailProduk_Produk_FK">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<createdTime>2024-11-13 01:35:06 UTC</createdTime>
 <generatorID>B7239AA7-85AE-3DD6-48E5-AE5634C9368C</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3553D79F-638E-E41F-5263-85E54933B9DD"/>
+<colUsage columnID="5CB4FE3B-A6F9-DF03-B6D4-1DBF7C1F04F2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

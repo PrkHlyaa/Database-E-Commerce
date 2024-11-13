@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id detail produk" id="521F3512-DBE0-8788-FA82-5AB7690FEA50">
+<Attribute name="id_detail_produk" id="521F3512-DBE0-8788-FA82-5AB7690FEA50">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-06 07:34:48 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
@@ -25,8 +25,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>16 CHAR</dataTypeSize>
-<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>31 CHAR</dataTypeSize>
+<ownDataTypeParameters>31 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ukuran" id="8D7C053D-9F0C-401B-F320-BA9339D75552">
 <createdBy>fitra</createdBy>
@@ -67,7 +67,7 @@
 <dataTypeScale>10</dataTypeScale>
 <ownDataTypeParameters>,2,10</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Produk id produk" id="6CF5045B-7992-F41C-C03E-7A39CDD399C2">
+<Attribute name="id_produk" id="6CF5045B-7992-F41C-C03E-7A39CDD399C2">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-06 07:36:10 UTC</createdTime>
 <generatorID>B7239AA7-85AE-3DD6-48E5-AE5634C9368C</generatorID>
@@ -82,7 +82,7 @@
 <dataTypeSize>32 CHAR</dataTypeSize>
 <ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Diskon nama diskon" id="DB019C69-FD1E-B4FD-ED89-57E2B0616912">
+<Attribute name="nama_diskon" id="DB019C69-FD1E-B4FD-ED89-57E2B0616912">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-12 09:08:33 UTC</createdTime>
 <generatorID>6A13FE87-5337-5F9D-D0F5-AC328C0F395C</generatorID>
@@ -97,6 +97,21 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>64 CHAR</dataTypeSize>
 <ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_diskon" id="0650A9D4-BE85-D917-0F1D-DCEE37B4F5AE">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:23:56 UTC</createdTime>
+<generatorID>6A13FE87-5337-5F9D-D0F5-AC328C0F395C</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<engineerTo>
+<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E884EF3D-4D3A-5A13-408D-996EB3BD01DB</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id provinsi" id="A22DDDEF-7C09-938F-3F86-99FB32533B16">
+<Attribute name="id_provinsi" id="A22DDDEF-7C09-938F-3F86-99FB32533B16">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-12 09:50:10 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
@@ -25,8 +25,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>32</dataTypeSize>
-<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nama provinsi" id="8C72A79F-B1BC-4825-B708-6BDDFE33584A">
 <createdBy>fitra</createdBy>

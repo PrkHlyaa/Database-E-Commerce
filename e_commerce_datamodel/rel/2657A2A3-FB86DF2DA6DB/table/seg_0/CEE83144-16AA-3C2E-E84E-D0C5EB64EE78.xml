@@ -1,29 +1,29 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5124B726-8FB7-C1B6-31E1-7DDA15651872" name="Kecamatan">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CEE83144-16AA-3C2E-E84E-D0C5EB64EE78" name="Kota">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:51:43 UTC</createdTime>
-<generatorID>7A28C02F-C360-799D-D35D-3DCC9DC7D501</generatorID>
+<createdTime>2024-11-13 01:35:06 UTC</createdTime>
+<generatorID>007E20B9-4F1A-5679-631A-D648292B8DAF</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_kecamatan" id="9496FC17-0D2D-DB01-F7CC-B7A8D592C00D">
+<Column name="id_kota" id="9635F50E-E1BA-3C00-3956-8C0D6E449F5D">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:51:43 UTC</createdTime>
-<generatorID>8B840B56-92A7-46D6-4CC6-9983B1135BCE</generatorID>
+<createdTime>2024-11-13 01:35:06 UTC</createdTime>
+<generatorID>43B5354A-6AEA-482C-6EB3-8F83FF0A0860</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>32</dataTypeSize>
-<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nama_kecamatan" id="DD93F795-1FD0-D75C-8753-C05B969BC382">
+<Column name="nama_kota" id="027AAEE7-0AA2-FAE8-7B1E-C4D5954DB0CC">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:51:43 UTC</createdTime>
-<generatorID>894471B9-7AE3-5AF9-F8BE-6FBA2182774E</generatorID>
+<createdTime>2024-11-13 01:35:06 UTC</createdTime>
+<generatorID>C8C899E8-1F9E-183C-FE43-6C16027264B8</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -33,45 +33,45 @@
 <ownDataTypeParameters>128,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Kota_id_kota" id="16CAB15F-4D49-1D67-237E-E6AD218CE5BC">
+<Column name="id_provinsi" id="0045F43A-FDB6-C1DE-BCF2-7E33372F5E21">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:51:43 UTC</createdTime>
-<generatorID>3F6AF37E-923D-5604-D76A-0996A339A29C</generatorID>
+<createdTime>2024-11-13 01:35:06 UTC</createdTime>
+<generatorID>30B375DB-2DBD-9DF4-BED8-F23BFEB2BD98</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>32</dataTypeSize>
-<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="20D439BE-3F44-862A-8323-8EA96C9F0305" referredColumn="71D03935-1153-6BC7-A98C-17BEB8F8DCFE"/>
+<colAssociation fkAssociation="4C95AE65-D542-4CBB-CB7B-9DB73A91983C" referredColumn="75BE1254-3C9F-CB0C-4D75-33E7838FB2EA"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7193F6D9-CF7A-72CF-4F0B-2A33FE84215B" name="Kecamatan_PK">
+<ind_PK_UK id="DA85BFC0-D665-0B92-A9C1-B102B9F0A52A" name="Kota_PK">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:51:43 UTC</createdTime>
-<generatorID>C0B76DCB-966C-C566-AC43-295A9EE2B500</generatorID>
+<createdTime>2024-11-13 01:35:06 UTC</createdTime>
+<generatorID>C51DC4EC-D0D4-5E39-19ED-692208A2460A</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9496FC17-0D2D-DB01-F7CC-B7A8D592C00D"/>
+<colUsage columnID="9635F50E-E1BA-3C00-3956-8C0D6E449F5D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1879B79D-EACF-6F02-BE66-B7546F2811E1" name="Kecamatan_Kota_FK">
+<ind_PK_UK id="5C9D7EBA-273B-FC6A-52AC-B6AE69361126" name="Kota_provinsi_FK">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:51:43 UTC</createdTime>
-<generatorID>643976CD-F054-C188-CCC5-43D9B5B1FDE7</generatorID>
+<createdTime>2024-11-13 01:35:06 UTC</createdTime>
+<generatorID>00E31B1E-973F-B8D1-D430-8680718EF790</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="16CAB15F-4D49-1D67-237E-E6AD218CE5BC"/>
+<colUsage columnID="0045F43A-FDB6-C1DE-BCF2-7E33372F5E21"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

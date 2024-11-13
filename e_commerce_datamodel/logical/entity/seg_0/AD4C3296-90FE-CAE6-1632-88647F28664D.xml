@@ -15,7 +15,20 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="nama diskon" id="201C63EC-A90C-3A4D-2695-879DAFD5B865">
+<Attribute name="id_diskon" id="E884EF3D-4D3A-5A13-408D-996EB3BD01DB">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:23:42 UTC</createdTime>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<engineerTo>
+<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_diskon" id="201C63EC-A90C-3A4D-2695-879DAFD5B865">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-06 07:40:53 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
@@ -79,6 +92,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>201C63EC-A90C-3A4D-2695-879DAFD5B865</attributeRef>
+<attributeRef>E884EF3D-4D3A-5A13-408D-996EB3BD01DB</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

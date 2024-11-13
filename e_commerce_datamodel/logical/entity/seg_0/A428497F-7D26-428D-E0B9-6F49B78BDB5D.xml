@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A28C02F-C360-799D-D35D-3DCC9DC7D501" name="Kecamatan">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A428497F-7D26-428D-E0B9-6F49B78BDB5D" name="AlamatCustomer">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:49:00 UTC</createdTime>
+<createdTime>2024-11-13 01:33:25 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <engineerTo>
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_kecamatan" id="8B840B56-92A7-46D6-4CC6-9983B1135BCE">
+<Attribute name="id_alamat" id="2FE33C56-5765-386E-145A-8FD3C8017518">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:49:07 UTC</createdTime>
+<createdTime>2024-11-13 01:33:32 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <engineerTo>
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
@@ -28,9 +28,9 @@
 <dataTypeSize>32 CHAR</dataTypeSize>
 <ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nama kecamatan" id="894471B9-7AE3-5AF9-F8BE-6FBA2182774E">
+<Attribute name="detail_alamat" id="64317533-A9A2-1BC7-747B-BA5378626AF3">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:49:33 UTC</createdTime>
+<createdTime>2024-11-13 01:33:55 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <engineerTo>
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
@@ -39,37 +39,50 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>128</dataTypeSize>
-<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_kota" id="3F6AF37E-923D-5604-D76A-0996A339A29C">
+<Attribute name="kode_pos" id="90E0D371-F6F7-A002-F51C-A8E0075840C0">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:51:08 UTC</createdTime>
-<generatorID>643976CD-F054-C188-CCC5-43D9B5B1FDE7</generatorID>
+<createdTime>2024-11-13 01:34:10 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <engineerTo>
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
 </engineerTo>
-<referedAttribute>43B5354A-6AEA-482C-6EB3-8F83FF0A0860</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>32</dataTypeSize>
-<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kecamatan" id="9B30C4C9-0F07-2439-3286-6FC459178A52">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:34:37 UTC</createdTime>
+<generatorID>2DA8A6C0-7CF4-54BE-39EC-64D537FBC5A9</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<engineerTo>
+<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
+</engineerTo>
+<referedAttribute>8B840B56-92A7-46D6-4CC6-9983B1135BCE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="C0B76DCB-966C-C566-AC43-295A9EE2B500" name="Kecamatan PK">
+<identifier id="A9FA23F2-640A-2F90-B34E-B84594E4A719" name="AlamatCustomer PK">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:49:31 UTC</createdTime>
+<createdTime>2024-11-13 01:33:35 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="false"/>
+<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>8B840B56-92A7-46D6-4CC6-9983B1135BCE</attributeRef>
+<attributeRef>2FE33C56-5765-386E-145A-8FD3C8017518</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

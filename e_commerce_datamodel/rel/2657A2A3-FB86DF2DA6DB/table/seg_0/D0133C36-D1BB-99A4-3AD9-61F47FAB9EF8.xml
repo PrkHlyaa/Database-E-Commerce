@@ -1,16 +1,28 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8687711-08DE-2DB0-4AF9-1B7DCFE25070" name="Customer">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0133C36-D1BB-99A4-3AD9-61F47FAB9EF8" name="Customer">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<createdTime>2024-11-13 01:35:05 UTC</createdTime>
 <generatorID>6F562142-8DE2-B84B-F0FF-F2E33874FE7E</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="email" id="967E4164-E44C-7E44-62C6-64BE781AF812">
+<Column name="id_customer" id="48654A54-FEA6-91A4-6DAB-971892F3C17D">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<createdTime>2024-11-13 01:35:05 UTC</createdTime>
+<generatorID>6ACFA591-1ECC-74C6-6054-5620201BA2D0</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="26C25C5B-39A4-2760-EE63-7A835BE881AB">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:35:05 UTC</createdTime>
 <generatorID>F43930C2-B737-75A1-57CF-4DFDBF9280A6</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +32,9 @@
 <ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="password" id="F7E31A19-5B8B-54BA-E4D4-4F53AFF22C57">
+<Column name="password" id="F757C69A-48D8-6340-95D8-0FDE63765994">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<createdTime>2024-11-13 01:35:05 UTC</createdTime>
 <generatorID>30845B8E-C587-BDD3-8166-0185E7ADEADD</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,9 +44,9 @@
 <ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="username" id="4842C19D-E590-3101-583C-EBC73339A381">
+<Column name="username" id="724559C1-FC1C-A1A9-CB9C-38A6CB51AAA6">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<createdTime>2024-11-13 01:35:05 UTC</createdTime>
 <generatorID>128541A6-BF5E-4216-9382-4EC1073E92E1</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -44,30 +56,45 @@
 <ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_customer" id="5B55DD5B-2774-7764-662D-19A61C175884">
+<Column name="id_alamat" id="60CF3703-FB6C-2947-E0DD-60A9D2E5255E">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:53:44 UTC</createdTime>
-<generatorID>6ACFA591-1ECC-74C6-6054-5620201BA2D0</generatorID>
+<createdTime>2024-11-13 01:35:05 UTC</createdTime>
+<generatorID>9831835C-37B6-BBEA-781B-8CB2D76D63EE</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>32</dataTypeSize>
-<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D6582A6-6364-3266-240C-90AF21E6973B" referredColumn="39D15847-F683-846B-05B7-F0A1BC50CC16"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1C6B7C3A-8225-E64B-EA6F-35F8C0A623AE" name="Customer_PK">
+<ind_PK_UK id="100B0045-4388-BAEF-AE0E-F2D4F6BF723E" name="Customer_PK">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-12 09:12:24 UTC</createdTime>
+<createdTime>2024-11-13 01:35:05 UTC</createdTime>
 <generatorID>762CA0BE-C418-D634-21D2-0EAE29DC75FA</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="967E4164-E44C-7E44-62C6-64BE781AF812"/>
+<colUsage columnID="48654A54-FEA6-91A4-6DAB-971892F3C17D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0E7A028-6A1B-2922-8596-B3A550F76CBC" name="Customer_AlamatCustomer_FK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 01:35:06 UTC</createdTime>
+<generatorID>2B1AACBD-DDDE-8552-AEAB-9C59505D3EFF</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60CF3703-FB6C-2947-E0DD-60A9D2E5255E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
