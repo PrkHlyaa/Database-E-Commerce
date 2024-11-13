@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0A370916-5682-AE68-1A0B-370E54DE8455" containerWithKeyObject="A14F2773-460D-4EE9-E5A8-5B2F127C52A9" localFKIndex="D85EA291-EAA4-8DB6-6905-C936D019396E" name="Kota_provinsi_FK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 02:08:00 UTC</createdTime>
+<generatorID>00E31B1E-973F-B8D1-D430-8680718EF790</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<referredTableLongName>provinsi</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4BE6362F-A869-2240-F7A3-1853EEB695A3</referredTableID>
+<keyObject>6D632D64-0F88-6253-55A0-B265291A61AF</keyObject>
+<referredKeyID>6D632D64-0F88-6253-55A0-B265291A61AF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_provinsi</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

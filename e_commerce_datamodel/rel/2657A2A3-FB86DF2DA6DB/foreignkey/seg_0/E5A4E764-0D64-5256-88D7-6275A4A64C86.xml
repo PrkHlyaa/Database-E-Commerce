@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E5A4E764-0D64-5256-88D7-6275A4A64C86" containerWithKeyObject="8D7EC4F3-3693-7A49-6916-CF610FACBDA4" localFKIndex="B3C1B1C6-137D-65C7-68A6-D97A8C56DEF8" name="Keranjang_Checkout_FK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 02:08:00 UTC</createdTime>
+<generatorID>0E97207F-1E60-D846-2632-098E1C85647F</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<referredTableLongName>Checkout</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7C604B46-5F52-2ED0-BE93-565AB2D49DBB</referredTableID>
+<keyObject>4F9EF144-3A37-15C8-8B5A-F0BB7C3C5B43</keyObject>
+<referredKeyID>4F9EF144-3A37-15C8-8B5A-F0BB7C3C5B43</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_checkout,id_metode</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
