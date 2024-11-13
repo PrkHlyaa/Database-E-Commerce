@@ -26,13 +26,14 @@
 <generatorID>C8C899E8-1F9E-183C-FE43-6C16027264B8</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>2EEA68B0-ABAB-DECA-A0DC-4B960CFD05DD</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_provinsi" id="9E7CE6DA-2149-5D27-42BD-3EB0DE3D697A">
+<Column name="provinsi_id_provinsi" id="9E7CE6DA-2149-5D27-42BD-3EB0DE3D697A">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-12 09:51:43 UTC</createdTime>
 <generatorID>30B375DB-2DBD-9DF4-BED8-F23BFEB2BD98</generatorID>
@@ -41,7 +42,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>32</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

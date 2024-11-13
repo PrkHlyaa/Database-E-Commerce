@@ -15,17 +15,18 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_customer" id="6ACFA591-1ECC-74C6-6054-5620201BA2D0">
+<Attribute name="id customer" id="6ACFA591-1ECC-74C6-6054-5620201BA2D0">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-12 09:53:18 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <engineerTo>
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D079455E-00AF-A58C-16B6-DA0EDAFCB9EB</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="email" id="F43930C2-B737-75A1-57CF-4DFDBF9280A6">
 <createdBy>fitra</createdBy>
@@ -78,7 +79,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>6ACFA591-1ECC-74C6-6054-5620201BA2D0</attributeRef>
+<attributeRef>F43930C2-B737-75A1-57CF-4DFDBF9280A6</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

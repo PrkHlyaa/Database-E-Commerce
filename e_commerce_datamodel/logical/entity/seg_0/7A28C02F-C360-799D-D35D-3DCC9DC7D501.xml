@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_kecamatan" id="8B840B56-92A7-46D6-4CC6-9983B1135BCE">
+<Attribute name="id kecamatan" id="8B840B56-92A7-46D6-4CC6-9983B1135BCE">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-12 09:49:07 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypeSize>32</dataTypeSize>
 <ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nama_kecamatan" id="894471B9-7AE3-5AF9-F8BE-6FBA2182774E">
+<Attribute name="nama kecamatan" id="894471B9-7AE3-5AF9-F8BE-6FBA2182774E">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-12 09:49:33 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
@@ -36,12 +36,13 @@
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>2EEA68B0-ABAB-DECA-A0DC-4B960CFD05DD</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_kota" id="3F6AF37E-923D-5604-D76A-0996A339A29C">
+<Attribute name="Kota id kota" id="3F6AF37E-923D-5604-D76A-0996A339A29C">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-12 09:51:08 UTC</createdTime>
 <generatorID>643976CD-F054-C188-CCC5-43D9B5B1FDE7</generatorID>
@@ -54,7 +55,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>32</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

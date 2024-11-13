@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rincian_produk" directorySegmentName="seg_0" id="B7239AA7-85AE-3DD6-48E5-AE5634C9368C">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DetailProduk Produk FK" directorySegmentName="seg_0" id="B7239AA7-85AE-3DD6-48E5-AE5634C9368C">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-06 07:36:10 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>

@@ -26,13 +26,14 @@
 <generatorID>894471B9-7AE3-5AF9-F8BE-6FBA2182774E</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>2EEA68B0-ABAB-DECA-A0DC-4B960CFD05DD</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_kota" id="16CAB15F-4D49-1D67-237E-E6AD218CE5BC">
+<Column name="Kota_id_kota" id="16CAB15F-4D49-1D67-237E-E6AD218CE5BC">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-12 09:51:43 UTC</createdTime>
 <generatorID>3F6AF37E-923D-5604-D76A-0996A339A29C</generatorID>
@@ -41,7 +42,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>32</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

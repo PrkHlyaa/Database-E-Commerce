@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="product_on_wishlist" directorySegmentName="seg_0" id="E04F2FDE-7537-C97F-7F34-D4AC306755D8">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Wishlist DetailProduk FK" directorySegmentName="seg_0" id="E04F2FDE-7537-C97F-7F34-D4AC306755D8">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-11 23:38:54 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>

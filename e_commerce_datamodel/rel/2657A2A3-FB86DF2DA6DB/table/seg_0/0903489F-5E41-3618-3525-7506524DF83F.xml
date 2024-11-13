@@ -20,7 +20,7 @@
 <ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="email" id="602B4686-18EB-CFEC-63C2-E7D4BA6EB927">
+<Column name="Customer_email" id="602B4686-18EB-CFEC-63C2-E7D4BA6EB927">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-12 09:12:24 UTC</createdTime>
 <generatorID>7FF2CCB3-41BA-9991-886E-1E0A380DF14E</generatorID>
@@ -37,7 +37,7 @@
 <colAssociation fkAssociation="D06EDE36-706E-2948-4413-9BCE0A4723C9" referredColumn="967E4164-E44C-7E44-62C6-64BE781AF812"/>
 </associations>
 </Column>
-<Column name="id_detail_produk" id="E1C48092-FF37-F015-2E7E-66BE46390282">
+<Column name="DetailProduk_id_detail_produk" id="E1C48092-FF37-F015-2E7E-66BE46390282">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-12 09:12:24 UTC</createdTime>
 <generatorID>C5C302F5-3AC7-9687-B56A-65462CFA0667</generatorID>
@@ -60,10 +60,11 @@
 <generatorID>EFBACDFB-979A-54E6-D8A8-F504FB4029C6</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D079455E-00AF-A58C-16B6-DA0EDAFCB9EB</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

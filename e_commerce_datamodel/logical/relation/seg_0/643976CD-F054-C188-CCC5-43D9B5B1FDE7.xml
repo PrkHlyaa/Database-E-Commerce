@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="kota_kecamatan" directorySegmentName="seg_0" id="643976CD-F054-C188-CCC5-43D9B5B1FDE7">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Kecamatan Kota FK" directorySegmentName="seg_0" id="643976CD-F054-C188-CCC5-43D9B5B1FDE7">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-12 09:51:08 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
@@ -8,7 +8,7 @@
 </engineerTo>
 <sourcePk>C51DC4EC-D0D4-5E39-19ED-692208A2460A</sourcePk>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>007E20B9-4F1A-5679-631A-D648292B8DAF</sourceEntity>

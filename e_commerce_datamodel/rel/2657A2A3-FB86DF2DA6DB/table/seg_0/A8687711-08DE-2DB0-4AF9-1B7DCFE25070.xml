@@ -49,10 +49,11 @@
 <createdTime>2024-11-12 09:53:44 UTC</createdTime>
 <generatorID>6ACFA591-1ECC-74C6-6054-5620201BA2D0</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D079455E-00AF-A58C-16B6-DA0EDAFCB9EB</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

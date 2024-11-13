@@ -26,10 +26,11 @@
 <generatorID>8C72A79F-B1BC-4825-B708-6BDDFE33584A</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>2EEA68B0-ABAB-DECA-A0DC-4B960CFD05DD</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

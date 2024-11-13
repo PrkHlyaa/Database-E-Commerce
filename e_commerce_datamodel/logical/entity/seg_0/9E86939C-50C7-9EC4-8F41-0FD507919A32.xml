@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_provinsi" id="A22DDDEF-7C09-938F-3F86-99FB32533B16">
+<Attribute name="id provinsi" id="A22DDDEF-7C09-938F-3F86-99FB32533B16">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-12 09:50:10 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypeSize>32</dataTypeSize>
 <ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nama_provinsi" id="8C72A79F-B1BC-4825-B708-6BDDFE33584A">
+<Attribute name="nama provinsi" id="8C72A79F-B1BC-4825-B708-6BDDFE33584A">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-12 09:50:26 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
@@ -36,10 +36,11 @@
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>2EEA68B0-ABAB-DECA-A0DC-4B960CFD05DD</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

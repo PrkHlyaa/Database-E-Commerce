@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="alamat_customer" directorySegmentName="seg_0" id="D7A46213-F0F6-C0AC-0FAB-466FD9D63E3C">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="alamat customer Customer FK" directorySegmentName="seg_0" id="D7A46213-F0F6-C0AC-0FAB-466FD9D63E3C">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-06 09:12:48 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>

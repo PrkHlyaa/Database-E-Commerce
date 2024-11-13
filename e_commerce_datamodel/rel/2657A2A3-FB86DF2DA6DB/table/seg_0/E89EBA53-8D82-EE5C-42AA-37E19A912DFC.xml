@@ -56,7 +56,7 @@
 <ownDataTypeParameters>,2,10</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_produk" id="3553D79F-638E-E41F-5263-85E54933B9DD">
+<Column name="Produk_id_produk" id="3553D79F-638E-E41F-5263-85E54933B9DD">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-12 09:12:24 UTC</createdTime>
 <generatorID>6CF5045B-7992-F41C-C03E-7A39CDD399C2</generatorID>
@@ -65,14 +65,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>32 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="52862D30-34BF-7158-FBC6-3C6475B0E0B7" referredColumn="70273267-400E-6704-100C-2C21F8C99C12"/>
 </associations>
 </Column>
-<Column name="nama_diskon" id="088D6602-C3B1-0B0A-8931-84C0E941D4E3">
+<Column name="Diskon_nama_diskon" id="088D6602-C3B1-0B0A-8931-84C0E941D4E3">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-12 09:12:24 UTC</createdTime>
 <generatorID>DB019C69-FD1E-B4FD-ED89-57E2B0616912</generatorID>
@@ -82,7 +82,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>64 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

@@ -80,7 +80,7 @@
 <ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="email" id="08748B05-59D8-E355-E302-7A1A059D6963">
+<Column name="Customer_email" id="08748B05-59D8-E355-E302-7A1A059D6963">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-12 09:12:24 UTC</createdTime>
 <generatorID>B4397510-14C7-3CE2-892C-6418AF09ED05</generatorID>
@@ -96,7 +96,7 @@
 <colAssociation fkAssociation="C3F88613-13F9-91B5-C9A3-ABD5E4E3BBB1" referredColumn="967E4164-E44C-7E44-62C6-64BE781AF812"/>
 </associations>
 </Column>
-<Column name="id_kecamatan" id="4C37C480-A955-B896-13BB-93D2E85F0BB3">
+<Column name="Kecamatan_id_kecamatan" id="4C37C480-A955-B896-13BB-93D2E85F0BB3">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-12 09:51:43 UTC</createdTime>
 <generatorID>D0ED6351-4DEC-8EBA-3903-54A3609C6FB4</generatorID>
@@ -117,10 +117,24 @@
 <createdTime>2024-11-12 09:53:44 UTC</createdTime>
 <generatorID>61403E4E-3DE9-E99B-8614-F1F4A0F3BCEC</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D079455E-00AF-A58C-16B6-DA0EDAFCB9EB</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_kecamatan" id="C299C291-F8F3-D801-D340-A16C63DA1DEE">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-13 00:42:51 UTC</createdTime>
+<generatorID>7A68129B-05D2-0C1F-690A-EF624471613A</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

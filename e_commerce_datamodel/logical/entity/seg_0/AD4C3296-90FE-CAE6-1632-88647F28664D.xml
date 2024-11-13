@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="nama_diskon" id="201C63EC-A90C-3A4D-2695-879DAFD5B865">
+<Attribute name="nama diskon" id="201C63EC-A90C-3A4D-2695-879DAFD5B865">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-06 07:40:53 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypeSize>64 CHAR</dataTypeSize>
 <ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tanggal_mulai" id="F848475D-102B-3C43-DA3C-4C3896FCA2B0">
+<Attribute name="tanggal mulai" id="F848475D-102B-3C43-DA3C-4C3896FCA2B0">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-06 07:41:16 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
@@ -40,7 +40,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tanggal_berakhir" id="AF0EBCC7-EC4A-3592-743A-350050D9590C">
+<Attribute name="tanggal berakhir" id="AF0EBCC7-EC4A-3592-743A-350050D9590C">
 <createdBy>fitra</createdBy>
 <createdTime>2024-11-06 07:41:48 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
