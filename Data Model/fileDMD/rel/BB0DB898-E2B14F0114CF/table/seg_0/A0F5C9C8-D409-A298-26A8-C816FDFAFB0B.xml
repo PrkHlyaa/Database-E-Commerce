@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0F5C9C8-D409-A298-26A8-C816FDFAFB0B" name="customer">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>8D80AAE5-15F3-69DC-0539-ED0B03BEB6F3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="email" id="999F9688-7D12-A696-CA8B-BC6ECDCD84BD">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>BC037AF6-85A5-F226-FFDD-099F63332354</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>56BC0B9B-D037-114C-2BC5-272E3BD08FF3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="F74AE318-764C-1F0C-3098-22B19A2B6260">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>7307BE53-EE2E-A4D0-0132-DC5F8F6CB752</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F2551A28-4044-6E56-E315-EF44F6FA5CBA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="BBC734E6-5CEE-2721-C6FD-EE6D7F33B8CA">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>EF0AAFAE-6F36-BE7D-EDD4-E688503A6541</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F4CC35D1-C9E0-1804-2E24-786011D43D5B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_customer" id="0DC3E00A-63AA-1316-42D3-FE6E8AD000D7">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>EE8E6305-AF66-3007-3211-5B41616A874B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88CC9D92-9840-2022-ED13-B3C31E167E1D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AEAF35B6-45D9-8E37-30F0-6C71ED90C9B6" name="customer_pk">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>273291FB-58FE-A5E9-B75B-4E8DE6176847</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="999F9688-7D12-A696-CA8B-BC6ECDCD84BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

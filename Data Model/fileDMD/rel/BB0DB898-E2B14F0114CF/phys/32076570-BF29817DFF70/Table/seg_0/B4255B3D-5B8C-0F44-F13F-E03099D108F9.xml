@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="laporan_penjualan" directorySegmentName="seg_0" id="B4255B3D-5B8C-0F44-F13F-E03099D108F9">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="tanggal" id="1FBCD362-A772-D500-1E28-F87E7E45B6EA">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="total_penjualan" id="4582CFAC-2055-A5E3-114C-9540258D755B">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_laporan_penjualan" id="5996E795-31F2-F1C0-70B4-8AEAABB0F472">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="jumlah_transaksi" id="D9A802CF-E7AB-4DFA-269E-B47299830319">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="laporan_penjualan_pk" id="400F65F5-DAC4-D76F-9A49-70731E6CFD3C">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

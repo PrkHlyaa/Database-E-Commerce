@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D31CE8B2-E6E7-EC51-4B1C-D2CF14E64617" containerWithKeyObject="EB9D507B-D361-5601-7D03-CBBE71087FC6" localFKIndex="ED607F7B-2DC8-A07D-B91A-A7916B0C9390" name="keranjang_checkout_fk">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>6CCE0CF7-DF07-8DC6-B70C-D11BA02B460F</importedID>
+<referredTableLongName>checkout</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0E14573A-C626-A185-F5A0-47129A0E6C30</referredTableID>
+<keyObject>55597205-E7D0-73E7-C93C-0A642EFDE2B3</keyObject>
+<referredKeyID>55597205-E7D0-73E7-C93C-0A642EFDE2B3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_checkout</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

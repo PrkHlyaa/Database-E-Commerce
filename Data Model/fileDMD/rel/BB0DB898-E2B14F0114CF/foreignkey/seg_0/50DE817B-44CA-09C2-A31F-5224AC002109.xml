@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="50DE817B-44CA-09C2-A31F-5224AC002109" containerWithKeyObject="1AAEA2EB-D4EF-CD5D-5A55-C37645B75713" localFKIndex="5F845D88-B97E-BC0F-0931-B19941D86E66" name="wishlist_customer_fk">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>7635621C-1282-E4B1-1B30-EFBA02108815</importedID>
+<referredTableLongName>customer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A0F5C9C8-D409-A298-26A8-C816FDFAFB0B</referredTableID>
+<keyObject>AEAF35B6-45D9-8E37-30F0-6C71ED90C9B6</keyObject>
+<referredKeyID>AEAF35B6-45D9-8E37-30F0-6C71ED90C9B6</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>email</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

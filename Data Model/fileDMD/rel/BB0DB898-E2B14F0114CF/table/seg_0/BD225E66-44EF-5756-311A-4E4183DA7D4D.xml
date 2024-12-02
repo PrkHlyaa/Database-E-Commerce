@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD225E66-44EF-5756-311A-4E4183DA7D4D" name="kota">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>B5217115-7A6F-2BFE-21A0-B07ABD17C3C6</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_kota" id="CD03BC5D-7F98-AD08-C5C8-0FF77B85399E">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>A5196B92-D0CA-1755-5B4B-B4E0698C7456</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88CC9D92-9840-2022-ED13-B3C31E167E1D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_kota" id="94DE0233-AFFB-AF4B-2818-68836ED4D145">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>3EA726D7-5667-62AB-080F-ACA181AFD1E5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4559FBAF-A57E-CD6F-5309-0003A85E6C8F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="provinsi_id_provinsi" id="71C1991C-43B6-B095-41F7-198E6C345EB1">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>40F91FB7-2DA5-8043-9E24-28B15B40C5AC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88CC9D92-9840-2022-ED13-B3C31E167E1D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A057222F-46E1-7E95-05F9-4134654CA8A1" referredColumn="1EDF11E0-B741-328A-4F1C-89AB7305977B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F63156C-53C5-1928-21EF-945C1D804319" name="kota_pk">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>AF086AC2-365C-7430-3177-A053C7D38FEA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD03BC5D-7F98-AD08-C5C8-0FF77B85399E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD541EAC-BD23-D8BD-2874-9FF291B68E4E" name="kota_provinsi_fk">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71C1991C-43B6-B095-41F7-198E6C345EB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

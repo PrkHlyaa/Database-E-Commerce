@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EE098B05-04B8-5235-2B0E-FED99EDBD0F3" containerWithKeyObject="845065DB-64D2-59CC-9EE2-39BEE1BA8710" localFKIndex="69972657-3CF9-8B02-5906-38CF95E18DD1" name="kecamatan_kota_fk">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>9CB92365-6B22-13E4-0CBF-C28CC6047507</importedID>
+<referredTableLongName>kota</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BD225E66-44EF-5756-311A-4E4183DA7D4D</referredTableID>
+<keyObject>8F63156C-53C5-1928-21EF-945C1D804319</keyObject>
+<referredKeyID>8F63156C-53C5-1928-21EF-945C1D804319</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_kota</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

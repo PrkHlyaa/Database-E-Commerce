@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="fileDMD" id="639425C6-0364-1763-EA42-904F597B3697" version="3.5">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:36:59 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>639425C6-0364-1763-EA42-904F597B3697</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="EB657D7F-D718-4F64-AC11-262C21144B15">
+<designStoragePath>E:\DDLTubes</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="3E02770C-FB53-1A7C-B96D-CAA9FBB42CD4">
+<designStoragePath>E:\DDLTubes</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="22FBA7F5-3717-D642-842A-5C79B6DE43D0">
+<designStoragePath>E:\DDLTubes</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

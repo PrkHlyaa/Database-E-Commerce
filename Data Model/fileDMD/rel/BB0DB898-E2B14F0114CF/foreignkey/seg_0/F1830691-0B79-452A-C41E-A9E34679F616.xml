@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F1830691-0B79-452A-C41E-A9E34679F616" containerWithKeyObject="B5BEE79C-47F6-476C-7E10-BB9B59F7B0F9" localFKIndex="E6902A43-8807-CCA0-6C52-E74661BA5E17" name="detailproduk_diskon_fk">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>F121AE16-B856-AD2F-A1FB-BBF6128AC903</importedID>
+<referredTableLongName>diskon</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DBE43C04-7083-AA8E-0C25-49582B883B45</referredTableID>
+<keyObject>08C88444-BC5A-F9B9-8B3F-67549B2AFF49</keyObject>
+<referredKeyID>08C88444-BC5A-F9B9-8B3F-67549B2AFF49</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>nama_diskon</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

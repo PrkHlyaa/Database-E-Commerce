@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5BEE79C-47F6-476C-7E10-BB9B59F7B0F9" name="detailproduk">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>587306D3-1C7F-2B02-243B-0AD18FAED97B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_detail_produk" id="63959900-A19B-9836-3DEE-C490513D49EB">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>986C8BF0-42B6-B4F3-ECAE-C7E31495BCBB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5986A606-AC37-3E21-80FC-D4E45C72D668</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ukuran" id="8F963B0B-7FA2-B789-D00C-193B7462FA65">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>7220A0FD-19D4-5F94-A6AD-D913C344F5EC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F2551A28-4044-6E56-E315-EF44F6FA5CBA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stok" id="9D821D6E-C784-BCBA-DEFD-5E5329156310">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>0E6018BF-93A2-7459-9EA1-392548955B83</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>10CD2487-1B54-382F-C655-CA752F52C7C0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="harga_reguler" id="831F68E5-7B5D-FB58-8DF5-A13A4E89355F">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>D146EB98-0FEF-F1FF-18D2-29BAB130A600</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4A17EF1F-A1C4-2F0E-2518-5DCB972973AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="produk_id_produk" id="2EF6E07E-8EBE-ABCD-34B4-25050B508CF8">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>A7B1826C-703C-0AB8-8591-F3F734E74F64</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F2551A28-4044-6E56-E315-EF44F6FA5CBA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C58533F2-FFCA-F7EF-787E-ADCA5C88C283" referredColumn="B7738801-CA0E-638C-35BF-337E1BBF0B8F"/>
+</associations>
+</Column>
+<Column name="diskon_nama_diskon" id="B434D909-F9B8-3B36-2824-062EA847014D">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>06AC3E29-4A11-CC52-739D-BCDBE87541DE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F4CC35D1-C9E0-1804-2E24-786011D43D5B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1830691-0B79-452A-C41E-A9E34679F616" referredColumn="461CBEF1-B6F2-03DD-F00C-68630D299076"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D072EAE2-FCB9-67DD-FB72-9A84C09A131C" name="detailproduk_pk">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>916471D0-81FB-13DB-F038-0CEA935DCA24</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63959900-A19B-9836-3DEE-C490513D49EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6902A43-8807-CCA0-6C52-E74661BA5E17" name="detailproduk_diskon_fk">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B434D909-F9B8-3B36-2824-062EA847014D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22361945-A0D9-87B9-2923-DE7DAB9CB4F6" name="detailproduk_produk_fk">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EF6E07E-8EBE-ABCD-34B4-25050B508CF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

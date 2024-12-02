@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C881A017-A567-0AEC-5DCC-88DC03F08F49" name="alamat_customer">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>846FAC4A-A596-458C-21F7-8B940838BAA8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_alamat" id="16FE45A8-08C9-6788-AF6D-2472BBA8309C">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>BA18AF61-5114-3A7B-3EED-1BDD16A61C89</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F2551A28-4044-6E56-E315-EF44F6FA5CBA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alamat_detail" id="3E4166FB-5AA0-9E41-EEDE-45CBA89EC881">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>E5383241-102D-AE71-92C8-CB4585D3B306</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>56BC0B9B-D037-114C-2BC5-272E3BD08FF3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kecamatan" id="53A8A01E-E59A-8CE1-0746-492059338F37">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>62BF6398-9756-92C8-260B-7DC828A27567</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F2551A28-4044-6E56-E315-EF44F6FA5CBA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kabupaten" id="F2730BBA-3850-E60C-D7DD-C964C31B120C">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>29605FFA-D623-7871-0A84-710B6938D395</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5986A606-AC37-3E21-80FC-D4E45C72D668</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="provinsi" id="05ED28C5-F3E9-CA6A-B030-1B9AF5D35E7F">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>B1F98677-5549-873F-81AB-50A2B1579139</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5986A606-AC37-3E21-80FC-D4E45C72D668</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kode_pos" id="5994D0F7-682B-C570-5DFF-DF81BA8D1BD1">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>100D1573-BC29-7F5E-4ACC-C0088F8D4210</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>75D6A780-DDC8-3416-09BC-FFA771546EC4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_email" id="16934FDC-BDFB-B33D-CB33-C487D9055897">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>5C659A10-938A-921B-E6F7-8852E8BE1D96</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>56BC0B9B-D037-114C-2BC5-272E3BD08FF3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5CAFCD7-2109-EBFF-4E06-FD7830210FED" referredColumn="999F9688-7D12-A696-CA8B-BC6ECDCD84BD"/>
+</associations>
+</Column>
+<Column name="kecamatan_id_kecamatan" id="EDFC69CB-BDB2-C1CD-2FE8-0F000BBDEC67">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>5E5668B3-B61C-35A2-6B74-687F36A64158</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88CC9D92-9840-2022-ED13-B3C31E167E1D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="637DB9D2-D31D-AAD5-360F-554875607076" referredColumn="F735623B-90EC-0C6E-A6AB-34A34F2A98F8"/>
+</associations>
+</Column>
+<Column name="id_customer" id="95BB514D-AF03-CDBE-BDED-7B848B0BF175">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>6D6FFBD0-F320-659C-5103-FB61672B291B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88CC9D92-9840-2022-ED13-B3C31E167E1D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="448C6C6F-8B61-8E03-0680-893C76FFDBFB" name="alamat_customer_pk">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>ABBEF78F-63B9-F2E5-DE8B-709225D0D0F5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16FE45A8-08C9-6788-AF6D-2472BBA8309C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="344E413B-E19B-6169-813C-07D7C904E903" name="alamat_customer_customer_fk">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16934FDC-BDFB-B33D-CB33-C487D9055897"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8F44080-567E-5300-39CC-5025808EAD61" name="alamat_customer_kecamatan_fk">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDFC69CB-BDB2-C1CD-2FE8-0F000BBDEC67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

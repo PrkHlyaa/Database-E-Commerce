@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1AAEA2EB-D4EF-CD5D-5A55-C37645B75713" name="wishlist">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>85649C3E-1CF3-9701-A4BD-BAA1EA219400</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_wishlist" id="1F32042F-D7D2-53FA-7A69-91C29979A17D">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>D9180D23-B53E-560D-A441-0428171177B0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>75D6A780-DDC8-3416-09BC-FFA771546EC4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_email" id="0190CAF2-CF0A-71C4-0D71-7E2FA5478215">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>DF82AB04-B7C7-D613-1942-8D7C9A9060A0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>56BC0B9B-D037-114C-2BC5-272E3BD08FF3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50DE817B-44CA-09C2-A31F-5224AC002109" referredColumn="999F9688-7D12-A696-CA8B-BC6ECDCD84BD"/>
+</associations>
+</Column>
+<Column name="detailproduk_id_detail_produk" id="8C84009B-C6DC-FADE-5511-CB16D83B6D69">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>4F65E5C2-543C-1F9B-C448-2A660EDA8116</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5986A606-AC37-3E21-80FC-D4E45C72D668</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F67EBFC8-92A1-4953-00BF-F5B968A10D6C" referredColumn="63959900-A19B-9836-3DEE-C490513D49EB"/>
+</associations>
+</Column>
+<Column name="id_customer" id="80A6DD2C-481B-3E25-8035-258E2441EF5C">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>51F948F7-105C-6472-66F2-880416CC409A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88CC9D92-9840-2022-ED13-B3C31E167E1D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34017BCE-45A7-0801-9513-85EDBB1DFA1C" name="wishlist_pk">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>54050816-9F3B-528F-A07C-A16EFB07CDF6</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F32042F-D7D2-53FA-7A69-91C29979A17D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F845D88-B97E-BC0F-0931-B19941D86E66" name="wishlist_customer_fk">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0190CAF2-CF0A-71C4-0D71-7E2FA5478215"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91601384-78F6-1E0F-F193-20A884E97E68" name="wishlist_detailproduk_fk">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C84009B-C6DC-FADE-5511-CB16D83B6D69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

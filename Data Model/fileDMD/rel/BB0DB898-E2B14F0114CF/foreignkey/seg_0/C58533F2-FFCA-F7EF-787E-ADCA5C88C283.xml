@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C58533F2-FFCA-F7EF-787E-ADCA5C88C283" containerWithKeyObject="B5BEE79C-47F6-476C-7E10-BB9B59F7B0F9" localFKIndex="22361945-A0D9-87B9-2923-DE7DAB9CB4F6" name="detailproduk_produk_fk">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>A16BCAA5-93B2-3033-6D06-A87A9307BA8B</importedID>
+<referredTableLongName>produk</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A9B6B1DC-9A19-16FB-5C54-CB1F5624797B</referredTableID>
+<keyObject>8015DC00-1413-BDB0-5DF2-5BFC8473D110</keyObject>
+<referredKeyID>8015DC00-1413-BDB0-5DF2-5BFC8473D110</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_produk</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

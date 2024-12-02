@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B5CAFCD7-2109-EBFF-4E06-FD7830210FED" containerWithKeyObject="C881A017-A567-0AEC-5DCC-88DC03F08F49" localFKIndex="344E413B-E19B-6169-813C-07D7C904E903" name="alamat_customer_customer_fk">
+<sourceDDLFile>DDLTubes.ddl</sourceDDLFile>
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-02 15:47:28 UTC</createdTime>
+<ownerDesignName>fileDMD</ownerDesignName>
+<importedID>1BBD2976-C899-EB90-4BB9-126D5999ADCD</importedID>
+<referredTableLongName>customer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A0F5C9C8-D409-A298-26A8-C816FDFAFB0B</referredTableID>
+<keyObject>AEAF35B6-45D9-8E37-30F0-6C71ED90C9B6</keyObject>
+<referredKeyID>AEAF35B6-45D9-8E37-30F0-6C71ED90C9B6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>email</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
