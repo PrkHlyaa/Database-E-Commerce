@@ -6,8 +6,6 @@ BEGIN
     );
 END;
 
-
-
 BEGIN
     tambah_detail_produk(
         p_id_produk => 'CJCQYK',
