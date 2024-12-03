@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB7C6AE1-0E4C-8DD3-1834-08B77BB31C31" name="AlamatCustomer">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 02:08:00 UTC</createdTime>
+<generatorID>A428497F-7D26-428D-E0B9-6F49B78BDB5D</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_alamat" id="802CAD19-2B23-23EE-79D2-5F7C9244EB28">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 02:08:00 UTC</createdTime>
+<generatorID>2FE33C56-5765-386E-145A-8FD3C8017518</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="detail_alamat" id="2BCBA65B-C3EC-DA52-4056-36B91F2F9813">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 02:08:00 UTC</createdTime>
+<generatorID>64317533-A9A2-1BC7-747B-BA5378626AF3</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kode_pos" id="A3E45049-3A02-F080-31B2-747FC034E2F1">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 02:08:00 UTC</createdTime>
+<generatorID>90E0D371-F6F7-A002-F51C-A8E0075840C0</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_kecamatan" id="FAF15C2D-20CC-9A3C-6349-69D525F57DB3">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 02:08:00 UTC</createdTime>
+<generatorID>9B30C4C9-0F07-2439-3286-6FC459178A52</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E6B7871-DF12-7282-36A4-2A9331E31ECC" referredColumn="9A42D7AE-E28D-76F1-52D4-B51A2DB20898"/>
+</associations>
+</Column>
+<Column name="id_customer" id="B9069FFD-99A6-BA3E-7CB9-3F0F3695FB53">
+<createdBy>fitra</createdBy>
+<createdTime>2024-12-03 01:59:11 UTC</createdTime>
+<generatorID>479E75BB-48C0-8440-3758-A9DE2F0BD2E1</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A7D131D-9169-3249-94CF-7C783B957D20" referredColumn="FB8CADB2-3EBD-CC24-9966-EC9F8294DCCA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A58F24A-DCD0-CC43-A8BB-2A9449FCA202" name="AlamatCustomer_PK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 02:08:00 UTC</createdTime>
+<generatorID>A9FA23F2-640A-2F90-B34E-B84594E4A719</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="802CAD19-2B23-23EE-79D2-5F7C9244EB28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="420EAF47-BCAF-E26B-4F2F-C43B1E3F9B86" name="AlamatCustomer_Kecamatan_FK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-13 02:08:00 UTC</createdTime>
+<generatorID>2DA8A6C0-7CF4-54BE-39EC-64D537FBC5A9</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAF15C2D-20CC-9A3C-6349-69D525F57DB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94A6986D-819B-802A-FEE9-83E0513FB4B1" name="AlamatCustomer_Customer_FK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-12-03 01:59:11 UTC</createdTime>
+<generatorID>F74B4786-11B0-C768-E78A-6DFEC4A0712B</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9069FFD-99A6-BA3E-7CB9-3F0F3695FB53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

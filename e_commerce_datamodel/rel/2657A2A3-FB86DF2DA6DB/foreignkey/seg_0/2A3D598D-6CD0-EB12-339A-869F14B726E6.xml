@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2A3D598D-6CD0-EB12-339A-869F14B726E6" containerWithKeyObject="2DFDC457-C859-557B-03CB-820C0FC9D2FD" localFKIndex="CC7DC440-68B6-1697-A8EE-80D69BE30EEF" name="DetailProduk_Produk_FK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-11-20 00:34:49 UTC</createdTime>
+<generatorID>B7239AA7-85AE-3DD6-48E5-AE5634C9368C</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<referredTableLongName>Produk</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0C29B15D-5832-A738-969C-2788B0AD793D</referredTableID>
+<keyObject>E3444B5C-BA92-303D-F741-C602EE5EA122</keyObject>
+<referredKeyID>E3444B5C-BA92-303D-F741-C602EE5EA122</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_produk</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

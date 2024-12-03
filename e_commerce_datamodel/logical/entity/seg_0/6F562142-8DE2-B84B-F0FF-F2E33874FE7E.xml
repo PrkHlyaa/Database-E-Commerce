@@ -67,21 +67,6 @@
 <dataTypeSize>64 CHAR</dataTypeSize>
 <ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_alamat" id="9831835C-37B6-BBEA-781B-8CB2D76D63EE">
-<createdBy>fitra</createdBy>
-<createdTime>2024-11-13 01:34:50 UTC</createdTime>
-<generatorID>2B1AACBD-DDDE-8552-AEAB-9C59505D3EFF</generatorID>
-<ownerDesignName>e_commerce_datamodel</ownerDesignName>
-<engineerTo>
-<item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
-</engineerTo>
-<referedAttribute>2FE33C56-5765-386E-145A-8FD3C8017518</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>32 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="762CA0BE-C418-D634-21D2-0EAE29DC75FA" name="Customer PK">

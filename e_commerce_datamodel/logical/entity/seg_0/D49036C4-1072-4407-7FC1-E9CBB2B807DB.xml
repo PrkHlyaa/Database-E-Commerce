@@ -22,8 +22,11 @@
 <engineerTo>
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="metode_pembayaran" id="A42FC2D9-0FF8-8B68-96FA-2637B4402D98">
 <createdBy>fitra</createdBy>

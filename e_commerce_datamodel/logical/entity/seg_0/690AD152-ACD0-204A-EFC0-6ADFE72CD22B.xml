@@ -80,16 +80,18 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_metode" id="E102FAE5-B738-FA40-BF7D-93C632758C00">
+<Attribute name="id_metode" id="4C36822F-C161-4862-38C1-34E65A54C5B6">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-13 01:46:43 UTC</createdTime>
+<createdTime>2024-11-13 02:07:40 UTC</createdTime>
 <generatorID>90D5FAAB-15F8-FFF7-472B-BC3CB2399FEC</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <engineerTo>
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
 </engineerTo>
 <referedAttribute>DFC6CC2D-914A-DC85-7CD1-9EF1D451148A</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -105,7 +107,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>0320319B-4DC7-CFE7-BA4B-80345040B640</attributeRef>
-<attributeRef>E102FAE5-B738-FA40-BF7D-93C632758C00</attributeRef>
+<attributeRef>4C36822F-C161-4862-38C1-34E65A54C5B6</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
