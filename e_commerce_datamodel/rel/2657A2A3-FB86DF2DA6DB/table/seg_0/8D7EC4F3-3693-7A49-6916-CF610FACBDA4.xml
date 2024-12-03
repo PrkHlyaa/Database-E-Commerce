@@ -53,12 +53,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>31 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="AB2657AF-C1D6-A95E-F179-5571BAA6CDB0" referredColumn="FFA3A8ED-B5F0-C003-220A-FC491212F951"/>
+<colAssociation fkAssociation="DA67ECF4-55BD-F2E4-53FE-4115610F08C5" referredColumn="2FBB7040-1436-69FB-2399-62B602CC11FD"/>
 </associations>
 </Column>
 <Column name="id_checkout" id="C552E4B3-93FE-7CD8-0C68-62B6CA86A4B4">
@@ -69,8 +69,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>32 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -87,7 +87,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>32 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -103,7 +103,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>32 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -147,9 +147,9 @@
 <colUsage columnID="2F6A5DAE-5812-6DE6-6144-89C0962F449A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2715B418-0DEA-FB66-7F63-B85251C6A06D" name="Keranjang_DetailProduk_FK">
+<ind_PK_UK id="EF01398E-4209-1780-4F9E-607854478946" name="Keranjang_DetailProduk_FK">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-13 02:08:00 UTC</createdTime>
+<createdTime>2024-11-20 00:34:49 UTC</createdTime>
 <generatorID>4BF01839-BBBB-A971-5EC9-521B8C3877D4</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <indexState>Foreign Key</indexState>

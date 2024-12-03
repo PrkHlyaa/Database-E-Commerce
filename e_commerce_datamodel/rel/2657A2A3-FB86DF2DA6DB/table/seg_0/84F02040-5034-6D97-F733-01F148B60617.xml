@@ -30,11 +30,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>31 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>31 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="470D535F-4C5D-221D-5C51-F386C6666F95" referredColumn="FFA3A8ED-B5F0-C003-220A-FC491212F951"/>
+<colAssociation fkAssociation="61AD6120-BC45-A447-89ED-02843F24C330" referredColumn="2FBB7040-1436-69FB-2399-62B602CC11FD"/>
 </associations>
 </Column>
 <Column name="id_customer" id="C7A8F89A-3E79-7B82-D637-6A45721260BC">
@@ -47,7 +47,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>32 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -79,9 +79,9 @@
 <colUsage columnID="C7A8F89A-3E79-7B82-D637-6A45721260BC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0E486FF9-93B2-DBD9-1954-91DCAB83F164" name="Wishlist_DetailProduk_FK">
+<ind_PK_UK id="FA7EA0E3-C670-17F9-4CBE-BE73B0287807" name="Wishlist_DetailProduk_FK">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-13 02:08:00 UTC</createdTime>
+<createdTime>2024-11-20 00:34:49 UTC</createdTime>
 <generatorID>E04F2FDE-7537-C97F-7F34-D4AC306755D8</generatorID>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <indexState>Foreign Key</indexState>
