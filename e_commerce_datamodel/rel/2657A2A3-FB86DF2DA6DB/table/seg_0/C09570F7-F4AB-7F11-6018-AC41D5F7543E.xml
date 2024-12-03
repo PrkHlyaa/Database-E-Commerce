@@ -56,22 +56,6 @@
 <ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_alamat" id="8BADD72D-FB9C-8606-B899-4F673D11D7DE">
-<createdBy>fitra</createdBy>
-<createdTime>2024-11-13 02:08:00 UTC</createdTime>
-<generatorID>9831835C-37B6-BBEA-781B-8CB2D76D63EE</generatorID>
-<ownerDesignName>e_commerce_datamodel</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>32 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="FE59263C-D0D3-499C-8DCE-1A2DBD586C62" referredColumn="802CAD19-2B23-23EE-79D2-5F7C9244EB28"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="B9B0CDAD-A48C-F7AA-71E9-516DF4D8AECD" name="Customer_PK">
@@ -84,17 +68,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FB8CADB2-3EBD-CC24-9966-EC9F8294DCCA"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="FB8A5FE5-C409-3AEB-BDCC-B0E64C29603D" name="Customer_AlamatCustomer_FK">
-<createdBy>fitra</createdBy>
-<createdTime>2024-11-13 02:08:00 UTC</createdTime>
-<generatorID>2B1AACBD-DDDE-8552-AEAB-9C59505D3EFF</generatorID>
-<ownerDesignName>e_commerce_datamodel</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="8BADD72D-FB9C-8606-B899-4F673D11D7DE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

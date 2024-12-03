@@ -55,11 +55,27 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>32 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="0E6B7871-DF12-7282-36A4-2A9331E31ECC" referredColumn="9A42D7AE-E28D-76F1-52D4-B51A2DB20898"/>
+</associations>
+</Column>
+<Column name="id_customer" id="B9069FFD-99A6-BA3E-7CB9-3F0F3695FB53">
+<createdBy>fitra</createdBy>
+<createdTime>2024-12-03 01:59:11 UTC</createdTime>
+<generatorID>479E75BB-48C0-8440-3758-A9DE2F0BD2E1</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A7D131D-9169-3249-94CF-7C783B957D20" referredColumn="FB8CADB2-3EBD-CC24-9966-EC9F8294DCCA"/>
 </associations>
 </Column>
 </columns>
@@ -85,6 +101,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FAF15C2D-20CC-9A3C-6349-69D525F57DB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94A6986D-819B-802A-FEE9-83E0513FB4B1" name="AlamatCustomer_Customer_FK">
+<createdBy>fitra</createdBy>
+<createdTime>2024-12-03 01:59:11 UTC</createdTime>
+<generatorID>F74B4786-11B0-C768-E78A-6DFEC4A0712B</generatorID>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9069FFD-99A6-BA3E-7CB9-3F0F3695FB53"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

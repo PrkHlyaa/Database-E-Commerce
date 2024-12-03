@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="alamat_customer" directorySegmentName="seg_0" id="2B1AACBD-DDDE-8552-AEAB-9C59505D3EFF">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_13" directorySegmentName="seg_0" id="F74B4786-11B0-C768-E78A-6DFEC4A0712B">
 <createdBy>fitra</createdBy>
-<createdTime>2024-11-13 01:34:50 UTC</createdTime>
+<createdTime>2024-12-03 01:58:48 UTC</createdTime>
 <ownerDesignName>e_commerce_datamodel</ownerDesignName>
 <engineerTo>
 <item key="2657A2A3-E77C-22DF-263D-FB86DF2DA6DB" value="true"/>
 </engineerTo>
-<sourcePk>A9FA23F2-640A-2F90-B34E-B84594E4A719</sourcePk>
+<sourcePk>762CA0BE-C418-D634-21D2-0EAE29DC75FA</sourcePk>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>A428497F-7D26-428D-E0B9-6F49B78BDB5D</sourceEntity>
+<sourceEntity>6F562142-8DE2-B84B-F0FF-F2E33874FE7E</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>6F562142-8DE2-B84B-F0FF-F2E33874FE7E</targetEntity>
+<targetEntity>A428497F-7D26-428D-E0B9-6F49B78BDB5D</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

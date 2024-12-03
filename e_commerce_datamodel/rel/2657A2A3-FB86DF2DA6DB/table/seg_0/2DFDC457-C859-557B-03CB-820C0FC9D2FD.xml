@@ -65,7 +65,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>32 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -82,11 +82,27 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>32 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="A28FD5AC-59F0-FEF3-0617-00D966B3E811" referredColumn="DC811788-AF2C-2FCA-7F9B-19A5BB6DD5D2"/>
+</associations>
+</Column>
+<Column name="Diskon_nama_diskon" id="0EC358CA-0B00-1F6E-F52D-91B24A3407A8">
+<createdBy>fitra</createdBy>
+<createdTime>2024-12-03 01:59:11 UTC</createdTime>
+<ownerDesignName>e_commerce_datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A28FD5AC-59F0-FEF3-0617-00D966B3E811" referredColumn="9E24BE32-5B04-5D7F-273E-14F47D772B45"/>
 </associations>
 </Column>
 </columns>
@@ -111,6 +127,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
+<colUsage columnID="0EC358CA-0B00-1F6E-F52D-91B24A3407A8"/>
 <colUsage columnID="415BB939-C135-D1CD-FE5F-DD7EC19C8CC3"/>
 </indexColumnUsage>
 </ind_PK_UK>
