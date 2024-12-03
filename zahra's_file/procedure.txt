@@ -1,0 +1,255 @@
+create or replace PROCEDURE tambah_produk (
+    p_nama_produk   IN VARCHAR2,
+    p_kategori      IN VARCHAR2,
+    p_deskripsi     IN CLOB
+) IS
+    v_id_produk      VARCHAR2(32);
+    v_kode_kategori  VARCHAR2(2);
+    v_produk_ada     INTEGER := 0;
+BEGIN
+    -- Validasi kategori
+    IF LOWER(p_kategori) NOT IN ('tops', 'cardigan and jacket', 'dress', 'skirts', 'accessories') THEN
+        RAISE_APPLICATION_ERROR(-20001, 'Kategori tidak valid.');
+    END IF;
+
+    -- Validasi nama produk unik
+    SELECT COUNT(*)
+    INTO v_produk_ada
+    FROM produk
+    WHERE LOWER(nama_produk) = LOWER(p_nama_produk);
+
+    IF v_produk_ada > 0 THEN
+        RAISE_APPLICATION_ERROR(-20002, 'Produk dengan nama yang sama sudah ada.');
+    END IF;
+
+    -- Tentukan kode kategori
+    CASE LOWER(p_kategori)
+        WHEN 'tops' THEN v_kode_kategori := 'TO';
+        WHEN 'cardigan and jacket' THEN v_kode_kategori := 'CJ';
+        WHEN 'dress' THEN v_kode_kategori := 'DR';
+        WHEN 'skirts' THEN v_kode_kategori := 'SK';
+        WHEN 'accessories' THEN v_kode_kategori := 'AC';
+    END CASE;
+
+    -- Generate id_produk
+    v_id_produk := v_kode_kategori || DBMS_RANDOM.STRING('U', 4);
+
+    -- Insert ke tabel produk
+    INSERT INTO produk (id_produk, nama_produk, kategori, deskripsi)
+    VALUES (v_id_produk, p_nama_produk, p_kategori, p_deskripsi);
+
+    COMMIT;
+EXCEPTION
+    WHEN OTHERS THEN
+        ROLLBACK;
+        RAISE_APPLICATION_ERROR(-20003, 'Terjadi kesalahan saat menambahkan produk: ' || SQLERRM);
+END;
+
+
+
+
+create or replace PROCEDURE tambah_detail_produk (
+    p_id_produk       IN VARCHAR2,
+    p_ukuran          IN VARCHAR2,
+    p_stok            IN INTEGER,
+    p_harga_reguler   IN NUMBER,
+    p_diskon          IN VARCHAR2 DEFAULT NULL
+) IS
+    v_id_detail_produk VARCHAR2(35);
+    v_urut_terakhir    NUMBER := 0;
+    v_detail_ada       INTEGER := 0;
+BEGIN
+    -- Validasi produk dan ukuran
+    SELECT COUNT(*)
+    INTO v_detail_ada
+    FROM detailproduk
+    WHERE id_produk = p_id_produk AND ukuran = p_ukuran;
+
+    IF v_detail_ada > 0 THEN
+        RAISE_APPLICATION_ERROR(-20004, 'Detail produk dengan ukuran yang sama sudah ada.');
+    END IF;
+
+    -- Cari nomor urut terakhir untuk id_detail_produk
+    SELECT COALESCE(MAX(TO_NUMBER(SUBSTR(id_detail_produk, -3))), 0)
+    INTO v_urut_terakhir
+    FROM detailproduk
+    WHERE id_produk = p_id_produk;
+
+    -- Generate id_detail_produk
+    v_id_detail_produk := p_id_produk || LPAD(v_urut_terakhir + 1, 3, '0');
+
+    -- Insert ke tabel detailproduk
+    INSERT INTO detailproduk (id_detail_produk, ukuran, stok, harga_reguler, id_produk, id_diskon)
+    VALUES (v_id_detail_produk, p_ukuran, p_stok, p_harga_reguler, p_id_produk, p_diskon);
+
+    COMMIT;
+EXCEPTION
+    WHEN OTHERS THEN
+        ROLLBACK;
+        RAISE_APPLICATION_ERROR(-20005, 'Terjadi kesalahan saat menambahkan detail produk: ' || SQLERRM);
+END;
+
+
+
+
+create or replace PROCEDURE edit_produk(
+    p_id_produk    IN produk.id_produk%TYPE,
+    p_nama_produk  IN produk.nama_produk%TYPE,
+    p_kategori     IN produk.kategori%TYPE,
+    p_deskripsi    IN produk.deskripsi%TYPE
+) AS
+    v_kategori_valid BOOLEAN := FALSE;
+BEGIN
+    -- Validasi kategori
+    IF p_kategori IN ('tops', 'cardigan and jacket', 'dress', 'skirts', 'accessoris') THEN
+        v_kategori_valid := TRUE;
+    ELSE
+        RAISE_APPLICATION_ERROR(-20001, 'Kategori tidak valid.');
+    END IF;
+
+    -- Update data produk
+    IF v_kategori_valid THEN
+        UPDATE produk
+        SET nama_produk = p_nama_produk,
+            kategori = p_kategori,
+            deskripsi = p_deskripsi
+        WHERE id_produk = p_id_produk;
+
+        IF SQL%ROWCOUNT = 0 THEN
+            RAISE_APPLICATION_ERROR(-20002, 'ID Produk tidak ditemukan.');
+        END IF;
+    END IF;
+
+    COMMIT;
+END;
+
+
+
+
+
+
+create or replace PROCEDURE edit_detail_produk(
+    p_id_detail_produk IN detailproduk.id_detail_produk%TYPE,
+    p_stok             IN detailproduk.stok%TYPE,
+    p_harga_reguler    IN detailproduk.harga_reguler%TYPE,
+    p_id_diskon        IN detailproduk.id_diskon%TYPE DEFAULT NULL
+) AS
+    v_id_produk produk.id_produk%TYPE;
+    v_ukuran detailproduk.ukuran%TYPE;
+    v_diskon_count NUMBER;
+BEGIN
+    -- Ambil id_produk dan ukuran dari detail_produk untuk validasi
+    SELECT id_produk, ukuran
+    INTO v_id_produk, v_ukuran
+    FROM detailproduk
+    WHERE id_detail_produk = p_id_detail_produk;
+
+    -- Validasi id_diskon (jika diberikan)
+    IF p_id_diskon IS NOT NULL THEN
+        SELECT COUNT(*)
+        INTO v_diskon_count
+        FROM diskon
+        WHERE id_diskon = p_id_diskon;
+
+        IF v_diskon_count = 0 THEN
+            RAISE_APPLICATION_ERROR(-20003, 'ID Diskon tidak valid.');
+        END IF;
+    END IF;
+
+    -- Update data detail_produk
+    UPDATE detailproduk
+    SET stok = p_stok,
+        harga_reguler = p_harga_reguler,
+        id_diskon = p_id_diskon
+    WHERE id_detail_produk = p_id_detail_produk;
+
+    IF SQL%ROWCOUNT = 0 THEN
+        RAISE_APPLICATION_ERROR(-20004, 'ID Detail Produk tidak ditemukan.');
+    END IF;
+
+    COMMIT;
+END;
+
+
+
+
+create or replace PROCEDURE HAPUS_PRODUK (
+    p_id_produk IN VARCHAR2
+) IS
+    -- Variabel untuk mengecek apakah produk ada
+    v_count_produk INTEGER;
+BEGIN
+    -- Mengecek apakah produk dengan id tertentu ada
+    SELECT COUNT(*) INTO v_count_produk
+    FROM produk
+    WHERE id_produk = p_id_produk;
+
+    -- Jika produk tidak ditemukan, tampilkan pesan error
+    IF v_count_produk = 0 THEN
+        RAISE_APPLICATION_ERROR(-20001, 'Produk dengan ID ' || p_id_produk || ' tidak ditemukan.');
+    ELSE
+        -- Hapus detail produk terkait
+        DELETE FROM detailproduk
+        WHERE id_produk = p_id_produk;
+
+        -- Hapus produk dari tabel produk
+        DELETE FROM produk
+        WHERE id_produk = p_id_produk;
+
+        COMMIT;
+        DBMS_OUTPUT.PUT_LINE('Produk dengan ID ' || p_id_produk || ' beserta detailnya berhasil dihapus.');
+    END IF;
+EXCEPTION
+    WHEN OTHERS THEN
+        -- Menangani kesalahan umum
+        ROLLBACK;
+        DBMS_OUTPUT.PUT_LINE('Terjadi kesalahan: ' || SQLERRM);
+END HAPUS_PRODUK;
+
+
+
+
+ALTER TABLE diskon 
+ADD maksimal_diskon NUMBER(10,2) NOT NULL;
+
+
+
+create or replace PROCEDURE TAMBAH_DISKON(
+    p_id_produk IN VARCHAR2,
+    p_nama_diskon IN VARCHAR2,
+    p_tanggal_mulai IN DATE,
+    p_tanggal_berakhir IN DATE,
+    p_diskon IN FLOAT,
+    p_maksimal_diskon IN NUMBER
+) IS
+    v_id_diskon VARCHAR2(32 CHAR);
+BEGIN
+    -- Memeriksa apakah tanggal mulai lebih besar dari hari ini
+    IF p_tanggal_mulai <= SYSDATE THEN
+        RAISE_APPLICATION_ERROR(-20001, 'Tanggal mulai harus lebih besar dari hari ini');
+    END IF;
+
+    -- Memeriksa apakah tanggal berakhir lebih besar dari tanggal mulai
+    IF p_tanggal_berakhir <= p_tanggal_mulai THEN
+        RAISE_APPLICATION_ERROR(-20002, 'Tanggal berakhir harus lebih besar dari tanggal mulai');
+    END IF;
+
+    -- Membuat ID diskon secara otomatis (misalnya: DSK001)
+    SELECT 'DSK' || LPAD(TO_CHAR(NVL(MAX(TO_NUMBER(SUBSTR(id_diskon, 4))), 0) + 1), 3, '0')
+    INTO v_id_diskon
+    FROM diskon;
+
+    -- Menambahkan data diskon ke tabel diskon
+    INSERT INTO diskon(id_diskon, nama_diskon, tanggal_mulai, tanggal_berakhir, diskon, maksimal_diskon)
+    VALUES (v_id_diskon, p_nama_diskon, p_tanggal_mulai, p_tanggal_berakhir, p_diskon, p_maksimal_diskon);
+
+    -- Memperbarui diskon di tabel detailproduk untuk semua produk dengan id_produk yang sesuai
+    UPDATE detailproduk
+    SET id_diskon = v_id_diskon
+    WHERE id_produk = p_id_produk;
+
+    COMMIT;
+
+    DBMS_OUTPUT.PUT_LINE('Diskon berhasil ditambahkan dengan ID: ' || v_id_diskon);
+END TAMBAH_DISKON;
+
